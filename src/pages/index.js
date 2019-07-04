@@ -262,7 +262,7 @@ export default IndexPage
 
 export const query = graphql`
   query {
-    headerIcon: file(relativePath: { eq: "icon.png" }) {
+    headerIcon: file(relativePath: { eq: "app-icon-dark-noise-512.png" }) {
       childImageSharp {
         fluid(maxWidth: 50) {
           ...GatsbyImageSharpFluid
@@ -297,7 +297,7 @@ export const query = graphql`
       publicURL
       extension
     }
-    appIconLarge: file(relativePath: { eq: "icon.png" }) {
+    appIconLarge: file(relativePath: { eq: "app-icon-dark-noise-512.png" }) {
       childImageSharp {
         fluid(maxWidth: 120) {
           ...GatsbyImageSharpFluid
