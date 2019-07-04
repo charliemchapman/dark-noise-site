@@ -20,64 +20,29 @@ module.exports = {
   linkedin_username      : null,
   facebook_username      : null,
   instagram_username     : null,
-  twitter_username       : "darknoiseapp",
+  twitter_username       : "DarkNoiseApp",
   github_username        : null,
   youtube_username       : null,
 
   // Features List
   features               : [
     {
-      title: "GitHub Pages GatsbyJS Starter",
+      title: "Simple",
       description:
-        "Designed for GitHub Pages and Netlify. Fork. Edit site-config.js. Upload screenshot/video. Push to gh-pages branch. Voilà!",
-      fontawesome_icon_name: "magic",
-    },
-    {
-      title: "iPhone Device Preview",
-      description:
-        "Preview your app in the context of an iPhone device. Five different device colors included.",
-      fontawesome_icon_name: "mobile",
-    },
-    {
-      title: "Video Support",
-      description:
-        "Preview app video on the iPhone device simply by placing your video files in the videos folder.",
-      fontawesome_icon_name: "play-circle",
-    },
-    {
-      title: "Optimized Performance",
-      description:
-        "No need to worry about page performance or optimizing images and videos. Everything is already configured for the best performance possible!",
-      fontawesome_icon_name: "sync",
-    },
-    {
-      title: "Easy to Tweak",
-      description:
-        "Tweak accent color, images, icons and transparency via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "adjust",
-    },
-    {
-      title: "Feature List",
-      description:
-        "Add features (like this one) to your site via the site-config.js file. No HTML/CSS needed.",
+        "A beautiful, clean interface makes it easy to find and play your favorite noises.",
       fontawesome_icon_name: "star",
     },
     {
-      title: "Deploy to Netlify",
-      description: "Easily deploy your GatsbyJS landing page to Netlify.",
-      fontawesome_icon_name: "arrow-alt-circle-down",
+      title: "Fast",
+      description:
+        "With widgets, quick actions, and Siri Shortcuts support, you can start up a noise in seconds, in any environment.",
+      fontawesome_icon_name: "bolt",
     },
     {
-      title: "Social Links",
+      title: "1 Price, All Noises",
       description:
-        "Easily add social media accounts and contact info in the footer via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "link",
-    },
-    {
-      title: "FontAwesome Support",
-      description:
-        "Pick custom Font Awesome icons for the feature list via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "info-circle",
+        "All noises are included with 1 price, so you'll have access to every noise you see now, or added in the future.",
+      fontawesome_icon_name: "dollar-sign",
     },
   ],
   header_background             : "rgba(0, 0, 0, 0.1)",
