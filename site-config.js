@@ -47,7 +47,7 @@ module.exports = {
   ],
   header_background             : "rgba(0, 0, 0, 0.1)",
   topbar_title_color            : "#ffffff",
-  cover_overlay_color_rgba      : "#282033",
+  cover_overlay_color_rgba      : "rgba(40, 32, 51, 0.9)",
   device_color                  : "black",                          // Set to "black", "blue", "coral", "white", or "yellow"
   body_background_color         : "#0a0117",
   primary_text_color            : "#000",

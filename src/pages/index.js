@@ -11,7 +11,7 @@ import configs from "../../site-config"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={configs.app_keywords} />
+    <SEO title="Dark Noise" keywords={configs.app_keywords} />
 
     <div
       className="imageWrapper"
