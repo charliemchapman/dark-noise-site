@@ -5,7 +5,7 @@ module.exports = {
   google_analytics_ID   : null,                                         // Enter Google Analytics ID or ""
   presskit_download_link: null,                                         // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
   video_or_screenshot   : "screenshot",                                 // "screenshot" or "video"
-  app_url               : "",                              // Domain of your website without path_prefix.
+  app_url               : "https://darknoise.app",                              // Domain of your website without path_prefix.
   path_prefix           : "/",                                          // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name              : "Dark Noise",
   app_price             : null,
