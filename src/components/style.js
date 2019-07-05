@@ -532,4 +532,26 @@ export default createGlobalStyle`
   .hidden {
     display: none;
   }
+
+  .privacyPolicy {
+    grid-area: 2 / 2 / 2 / 12; 
+    color: white
+    line-height: normal;
+  }
+
+  .privacyPolicy h1 {
+    margin-top: 40px;
+    margin-bottom:30px;
+  }
+
+  .privacyPolicy p {
+    margin-top: 10px;
+    margin-bottom:30px;
+  }
+
+  .privacyPolicy ul {
+    margin-top: 10px;
+    margin-bottom:30px;
+    margin-left: 30px
+  }
 `

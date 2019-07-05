@@ -20,12 +20,14 @@ const IndexPage = ({ data }) => (
         backgroundImage: `linear-gradient(${configs.cover_overlay_color_rgba},${
           configs.cover_overlay_color_rgba
         }),url(${data.headerImage.childImageSharp.fluid.src})`,
+        height: "114px",
+        borderRadius: "0"
       }}
     >
       <div className="headerBackground">
         <div className="container">
           <header>
-            <div className="logo">
+            <Link to="/" className="logo">
               <div className="appIconShadow">
                 <svg width="0" height="0">
                   <defs>
@@ -44,7 +46,7 @@ const IndexPage = ({ data }) => (
                 />
               </div>
               <p className="headerName">{configs.app_name}</p>
-            </div>
+            </Link>
             <nav>
               <ul>
                 {configs.presskit_download_link && (
@@ -58,133 +60,116 @@ const IndexPage = ({ data }) => (
               </ul>
             </nav>
           </header>
-          <div
-            className="iphonePreview"
-            style={{
-              backgroundImage: `url(${
-                configs.device_color === "black"
-                  ? data.iphonePreviewBlack.childImageSharp.fluid.src
-                  : configs.device_color === "blue"
-                  ? data.iphonePreviewBlue.childImageSharp.fluid.src
-                  : configs.device_color === "coral"
-                  ? data.iphonePreviewCoral.childImageSharp.fluid.src
-                  : configs.device_color === "white"
-                  ? data.iphonePreviewWhite.childImageSharp.fluid.src
-                  : data.iphonePreviewYellow.childImageSharp.fluid.src
-              })`,
-            }}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 0 0"
-              style={{ position: "absolute" }}
-            >
-              <clipPath
-                id="screenMask"
-                clipPathUnits="objectBoundingBox"
-                transform="scale(.00257 .00119)"
-              >
-                <path
-                  d="M6490.24,1234.36H6216.28c-2.57,0-10.55-.07-12.07-0.07a87.524,87.524,0,0,1-12-1.03,40.051,40.051,0,0,1-11.4-3.79,38.315,38.315,0,0,1-16.82-16.84,39.948,39.948,0,0,1-3.78-11.42,72.257,72.257,0,0,1-1.04-12.02c-0.06-1.83-.06-5.56-0.06-5.56V452.125h0s0.06-11.391.06-12.086a87.9,87.9,0,0,1,1.04-12.025,39.843,39.843,0,0,1,3.78-11.413,38.283,38.283,0,0,1,16.82-16.847,39.762,39.762,0,0,1,11.4-3.785,71.909,71.909,0,0,1,12-1.037c16.99-.567,36.32-0.061,34.51-0.061,5.02,0,6.5,3.439,6.63,6.962a35.611,35.611,0,0,0,1.2,8.156,21.326,21.326,0,0,0,19.18,15.592c2.28,0.192,6.78.355,6.78,0.355H6433.7s4.5-.059,6.79-0.251a21.348,21.348,0,0,0,19.18-15.591,35.582,35.582,0,0,0,1.19-8.154c0.13-3.523,1.61-6.962,6.64-6.962-1.81,0,17.52-.5,34.5.061a71.923,71.923,0,0,1,12.01,1.038,39.832,39.832,0,0,1,11.4,3.784,38.283,38.283,0,0,1,16.82,16.844,40.153,40.153,0,0,1,3.78,11.413,87.844,87.844,0,0,1,1.03,12.023c0,0.695.06,12.084,0.06,12.084h0V1183.64s0,3.72-.06,5.55a72.366,72.366,0,0,1-1.03,12.03,40.2,40.2,0,0,1-3.78,11.41,38.315,38.315,0,0,1-16.82,16.84,40.155,40.155,0,0,1-11.4,3.79,87.669,87.669,0,0,1-12.01,1.03c-1.52,0-9.5.07-12.07,0.07"
-                  transform="translate(-6159.12 -394.656)"
-                />
-              </clipPath>
-            </svg>
-            {configs.video_or_screenshot === "video" && (
-              <div className="videoContainer">
-                <video
-                  className="screenvideo"
-                  autoPlay="autoplay"
-                  controls="controls"
-                >
-                  <source
-                    src={data.videoScreen.publicURL}
-                    type={`video/${
-                      data.videoScreen.extension === "mov"
-                        ? `mp4`
-                        : data.videoScreen.extension
-                    }`}
-                  />
-                </video>
-              </div>
-            )}
+          <div className="privacyPolicy">
+          <h1>Privacy Policy</h1> <p>
+                    Charles Chapman built the Dark Noise app as
+                    a Commercial app. This SERVICE is provided by
+                    Charles Chapman  and is intended for
+                    use as is.
+                  </p> <p>
+                    This page is used to inform visitors regarding
+                    my policies with the collection, use, and
+                    disclosure of Personal Information if anyone decided to use
+                    my Service.
+                  </p> <p>
+                    If you choose to use my Service, then you agree
+                    to the collection and use of information in relation to this
+                    policy. The Personal Information that I collect is
+                    used for providing and improving the Service.
+                    I will not use or share your
+                    information with anyone except as described in this Privacy
+                    Policy.
+                  </p> <p>
+                    The terms used in this Privacy Policy have the same meanings
+                    as in our Terms and Conditions, which is accessible at
+                    Dark Noise unless otherwise defined in this Privacy
+                    Policy.
+                  </p> <p><strong>Information Collection and Use</strong></p> <p>
+                    For a better experience, while using our Service,
+                    I may require you to provide us with certain
+                    personally identifiable information. The
+                    information that I request will be
+                    retained on your device and is not collected by me in any way.
+                  </p> <p>
+                    The app does use third party services that may collect
+                    information used to identify you.
+                  </p> <div><p>
+                      Link to privacy policy of third party service providers
+                      used by the app
+                    </p> <ul><li><a href="https://firebase.google.com/policies/analytics" >Firebase Analytics</a></li><li><a href="http://try.crashlytics.com/terms/privacy-policy.pdf" >Crashlytics</a></li></ul></div> <p><strong>Log Data</strong></p> <p>
+                    I want to inform you that whenever
+                    you use my Service, in a case of an error in the
+                    app I collect data and information (through third
+                    party products) on your phone called Log Data. This Log Data
+                    may include information such as your device Internet
+                    Protocol (“IP”) address, device name, operating system
+                    version, the configuration of the app when utilizing
+                    my Service, the time and date of your use of the
+                    Service, and other statistics.
+                  </p> <p><strong>Cookies</strong></p> <p>
+                    Cookies are files with a small amount of data that are
+                    commonly used as anonymous unique identifiers. These are
+                    sent to your browser from the websites that you visit and
+                    are stored on your device's internal memory.
+                  </p> <p>
+                    This Service does not use these “cookies” explicitly.
+                    However, the app may use third party code and libraries that
+                    use “cookies” to collect information and improve their
+                    services. You have the option to either accept or refuse
+                    these cookies and know when a cookie is being sent to your
+                    device. If you choose to refuse our cookies, you may not be
+                    able to use some portions of this Service.
+                  </p> <p><strong>Service Providers</strong></p> <p>
+                    I may employ third-party companies
+                    and individuals due to the following reasons:
+                  </p> <ul><li>To facilitate our Service;</li> <li>To provide the Service on our behalf;</li> <li>To perform Service-related services; or</li> <li>To assist us in analyzing how our Service is used.</li></ul> <p>
+                    I want to inform users of this
+                    Service that these third parties have access to your
+                    Personal Information. The reason is to perform the tasks
+                    assigned to them on our behalf. However, they are obligated
+                    not to disclose or use the information for any other
+                    purpose.
+                  </p> <p><strong>Security</strong></p> <p>
+                    I value your trust in providing us
+                    your Personal Information, thus we are striving to use
+                    commercially acceptable means of protecting it. But remember
+                    that no method of transmission over the internet, or method
+                    of electronic storage is 100% secure and reliable, and
+                    I cannot guarantee its absolute security.
+                  </p> <p><strong>Links to Other Sites</strong></p> <p>
+                    This Service may contain links to other sites. If you click
+                    on a third-party link, you will be directed to that site.
+                    Note that these external sites are not operated by
+                    me. Therefore, I strongly advise you to
+                    review the Privacy Policy of these websites.
+                    I have no control over and assume no
+                    responsibility for the content, privacy policies, or
+                    practices of any third-party sites or services.
+                  </p> <p><strong>Children’s Privacy</strong></p> <p>
+                    These Services do not address anyone under the age of 13.
+                    I do not knowingly collect personally
+                    identifiable information from children under 13. In the case
+                    I discover that a child under 13 has provided
+                    me with personal information,
+                    I immediately delete this from our servers. If you
+                    are a parent or guardian and you are aware that your child
+                    has provided us with personal information, please contact
+                    me so that I will be able to do
+                    necessary actions.
+                  </p> <p><strong>Changes to This Privacy Policy</strong></p> <p>
+                    I may update our Privacy Policy from
+                    time to time. Thus, you are advised to review this page
+                    periodically for any changes. I will
+                    notify you of any changes by posting the new Privacy Policy
+                    on this page. These changes are effective immediately after
+                    they are posted on this page.
+                  </p> <p><strong>Contact Us</strong></p> <p>
+                    If you have any questions or suggestions about
+                    my Privacy Policy, do not hesitate to contact
+                    me at dev.charliemchapman@gmail.com.
+                  </p> <p>
+                    This privacy policy page was created at <a href="https://privacypolicytemplate.net">privacypolicytemplate.net</a> and modified/generated by <a href="https://app-privacy-policy-generator.firebaseapp.com/" > App Privacy Policy Generator</a></p>
 
-            {configs.video_or_screenshot === "screenshot" && (
-              <Img
-                fluid={data.iphoneScreen.childImageSharp.fluid}
-                className="iphoneScreen"
-              />
-            )}
-          </div>
-          <div className="appInfo">
-            <div className="appIconShadow">
-              <svg width="0" height="0">
-                <defs>
-                  <clipPath id="shape120">
-                    <path
-                      id="shape"
-                      d="M6821,495.533v-4.281c0-1.2-.04-2.4-0.04-3.642a57.7,57.7,0,0,0-.68-7.882,26.144,26.144,0,0,0-2.48-7.483,25.115,25.115,0,0,0-11.04-11.044,26.118,26.118,0,0,0-7.49-2.481,47.28,47.28,0,0,0-7.88-.68c-1.2-.04-2.4-0.04-3.64-0.04h-53.5c-1.2,0-2.4.04-3.64,0.04a57.813,57.813,0,0,0-7.88.68,26.323,26.323,0,0,0-7.49,2.481,25.115,25.115,0,0,0-11.04,11.044,26.144,26.144,0,0,0-2.48,7.483,47.313,47.313,0,0,0-.68,7.882c-0.04,1.2-.04,2.4-0.04,3.642v53.5c0,1.2.04,2.4,0.04,3.641a57.7,57.7,0,0,0,.68,7.883,26.137,26.137,0,0,0,2.48,7.482,25.115,25.115,0,0,0,11.04,11.044,26.261,26.261,0,0,0,7.49,2.481,47.28,47.28,0,0,0,7.88.68c1.2,0.04,2.4.04,3.64,0.04h53.5c1.2,0,2.4-.04,3.64-0.04a57.654,57.654,0,0,0,7.88-.68,26.057,26.057,0,0,0,7.49-2.481,25.115,25.115,0,0,0,11.04-11.044,26.137,26.137,0,0,0,2.48-7.482,47.316,47.316,0,0,0,.68-7.883c0.04-1.2.04-2.4,0.04-3.641V495.533h0Z"
-                      transform="translate(-6701 -458)"
-                      filter="url(#f1)"
-                    />
-                  </clipPath>
-                </defs>
-              </svg>
-              <Img
-                fluid={data.appIconLarge.childImageSharp.fluid}
-                className="appIconLarge"
-              />
-            </div>
-            <div className="appNamePriceContainer">
-              <h1 className="appName">{configs.app_name}</h1>
-              <h2 className="appPrice">{configs.app_price}</h2>
-            </div>
-            <div className="appDescriptionContainer">
-              <p className="appDescription">{configs.app_description}</p>
-            </div>
-            <div className="downloadButtonsContainer">
-              {configs.playstore_link && (
-                <a className="playStoreLink" href={configs.playstore_link}>
-                  <Img
-                    fixed={data.playStore.childImageSharp.fixed}
-                    className="playStore"
-                  />
-                </a>
-              )}
-              {configs.appstore_link && (
-                <a className="appStoreLink" href={configs.appstore_link}>
-                  <Img
-                    fixed={data.appStore.childImageSharp.fixed}
-                    className="appStore"
-                  />
-                </a>
-              )}
-            </div>
-          </div>
-          <div className="features">
-            {configs.features.map(feature => {
-              if (feature.title) {
-                return (
-                  <div className="feature">
-                    <div>
-                      <span className="fa-stack fa-1x">
-                        <i className="iconBack fas fa-circle fa-stack-2x" />
-                        <i
-                          className={`iconTop fas fa-${
-                            feature.fontawesome_icon_name
-                          } fa-stack-1x`}
-                        />
-                      </span>
-                    </div>
-                    <div className="featureText">
-                      <h3>{feature.title}</h3>
-                      <p>{feature.description}</p>
-                    </div>
-                  </div>
-                )
-              }
-              return null
-            })}
           </div>
           <footer>
             <p className="footerText">
