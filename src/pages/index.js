@@ -159,6 +159,9 @@ const IndexPage = ({ data }) => (
                   />
                 </a>
               )}
+              {!configs.appstore_link && !configs.playstore_link && (
+                <div><p style={{color:"white"}}>Coming soon.</p><br/><p  style={{color:"white"}}>Interested in beta testing? Follow <a href="https://twitter.com/darknoiseapp">@DarkNoiseApp</a> on Twitter and ask about joining or email <a href="mailto:darknoiseapp@gmail.com">darknoiseapp@gmail.com</a></p></div>
+              )}
             </div>
           </div>
           <div className="features">

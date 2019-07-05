@@ -1,6 +1,6 @@
 module.exports = {
   // App Info
-  appstore_link         : "https://itunes.apple.com/app/id1465439395",                                  // Enter App Store URL.
+  appstore_link         : null,                                  // Enter App Store URL.
   playstore_link        : null,                                         // Enter Google Play Store URL.
   google_analytics_ID   : null,                                         // Enter Google Analytics ID or ""
   presskit_download_link: null,                                         // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
@@ -9,7 +9,7 @@ module.exports = {
   path_prefix           : "/",                                          // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name              : "Dark Noise",
   app_price             : null,
-  app_description       : "Simple, fast, white noise app for iOS.",
+  app_description       : "Simple, fast, white noise app for iPhone and iPad.",
   app_keywords          : ["White Noise", "Ambient Noise", "Meditation"],
 
   // Personal Info
