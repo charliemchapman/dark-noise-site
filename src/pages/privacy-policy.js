@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => (
       }}
     >
       <div className="headerBackground">
-        <div className="container">
+        <div className="container privacyPage">
           <header>
             <Link to="/" className="logo">
               <div className="appIconShadow">

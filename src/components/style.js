@@ -534,7 +534,7 @@ export default createGlobalStyle`
   }
 
   .privacyPolicy {
-    grid-area: 2 / 2 / 2 / 12; 
+    grid-area: p; 
     color: white
     line-height: normal;
   }
@@ -553,5 +553,10 @@ export default createGlobalStyle`
     margin-top: 10px;
     margin-bottom:30px;
     margin-left: 30px
+  }
+
+  .privacyPage {
+    display: block;
+    grid-template-areas: "h h h h h h h h h h h h" "p p p p p p p p p p p p" "c c c c c c c c c c c c" "f f f f f f f f f f f f";
   }
 `
