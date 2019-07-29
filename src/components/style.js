@@ -559,4 +559,8 @@ export default createGlobalStyle`
     display: block;
     grid-template-areas: "h h h h h h h h h h h h" "p p p p p p p p p p p p" "c c c c c c c c c c c c" "f f f f f f f f f f f f";
   }
+
+  p {
+    line-height: 25px;
+  }
 `
