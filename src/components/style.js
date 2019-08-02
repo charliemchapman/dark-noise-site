@@ -563,4 +563,49 @@ export default createGlobalStyle`
   p {
     line-height: 25px;
   }
+
+  .presskit-body {
+    color: white;
+    max-width: 800px
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .presskit-body h2 {
+    margin-top: 40px
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #ab73ff;
+  }
+
+  .presskit-body p{
+    font-size: 1.75rem;
+  }
+
+  .presskit-banner {
+    margin-bottom: 20px;
+  }
+
+  .presskit-banner img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  
+  .presskit-screenshots{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .presskit-screenshot{
+    width: 23%;
+  }
+
+  .presskit-screenshot img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
 `

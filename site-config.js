@@ -9,7 +9,7 @@ module.exports = {
   path_prefix           : "/",                                          // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name              : "Dark Noise",
   app_price             : null,
-  app_description       : "Simple, fast, white noise app for iPhone and iPad.",
+  app_description       : "Simple. Fast. White noise, refined. For iPhone and iPad.",
   app_keywords          : ["White Noise", "Ambient Noise", "Meditation"],
 
   // Personal Info
@@ -53,7 +53,7 @@ module.exports = {
   primary_text_color            : "#000",
   content_width                 : "1170px",
   font                          : `"Helvetica Neue", sans-serif`,
-  link_color                    : "#802bff",
+  link_color                    : "#ab73ff",
   app_title_color               : "#ffffff",
   app_price_color               : "#ffffff",
   app_description_color         : "#ffffff",
