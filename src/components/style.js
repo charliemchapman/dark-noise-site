@@ -162,7 +162,7 @@ export default createGlobalStyle`
   }
 
   nav > ul li {
-    padding-left: 50px;
+    padding-left: 30px;
     text-align: right;
   }
 
@@ -580,6 +580,7 @@ export default createGlobalStyle`
 
   .presskit-body p{
     font-size: 1.75rem;
+    margin-bottom: 20px;
   }
 
   .presskit-banner {

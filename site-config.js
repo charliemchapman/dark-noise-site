@@ -41,7 +41,7 @@ module.exports = {
     {
       title: "1 Price, All Noises",
       description:
-        "All noises are included with 1 price, so you'll have access to every noise you see now, or added in the future.",
+        "All noises are included with 1 price, so you'll have access to every noise you see.",
       fontawesome_icon_name: "dollar-sign",
     },
   ],

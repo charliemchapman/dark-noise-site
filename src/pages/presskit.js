@@ -61,8 +61,21 @@ const IndexPage = ({ data }) => (
             </nav>
           </header>
           <div className="presskit-body">
+            <h2></h2>
+            <p>Download full Press Kit with screenshots, promo art, and hi-res icon here TODO:LINK</p>
             <h2>Dark Noise</h2>
-            <p>Write words here that hopefully explain what this thing is without sounding too stupid.</p>
+            <p>
+              Dark Noise is a delightful ambient noise app that's designed for simplicity with a lot of power under the hood.  Each of the over 30 ambient noises feature a custom built animated icon that brings app to life.
+            </p>
+            <p>
+              Let's be honest, a white noise app's job is to play your noise and get out of the way as quickly as possible, and Dark Noise was designed from the beginning with this in mind.  Whether your tuning out 
+            </p>
+            <p>
+              Power users can go even faster with Siri Shortcuts integrations, Today Extension Widgets, auto-play, and force touch quick actions.  Dark Noise also features over 20 custom home screen icons and alternate light and pure black themes.
+            </p>
+            <p>
+              Dark Noise is available for iPhone and iPad for **INSERT PRICE** on the App Store here <a href="https://itunes.apple.com/app/id1465439395">https://itunes.apple.com/app/id1465439395</a>
+            </p>
             <h2>Promo Images</h2>
             <div className="presskit-banner">
               <a href="/banners/dark-noise-banner-01-wAppStore.png">
@@ -118,12 +131,12 @@ const IndexPage = ({ data }) => (
                   </a>
               </div>
             </div>
-            <h2>Screenshots</h2>
-            <h2>Assets</h2>
             <h2>Awards &amp; Recognition</h2>
             <p>TBD 🤪</p>
-            <h2>About Me</h2>
-            <p></p>
+            <h2>About the Developer</h2>
+            <p>👋 Hi, I'm Charlie Chapman</p>
+            <p>I'm a software engineer in St. Louis, Missouri by day, and a designer, motion graphics artist, podcaster, and indie dev by night.</p>
+            <p>I developed Dark Noise originally for myself. I wanted a dead simple white noise app that takes advantage of all of the wonderful integrations iOS has to offer without a busy and confusing interface.</p>
             <h2>Contact</h2>
             <p>For any questions or to request a promo code email me at <a href="mailto:dev.charliemchapman@gmail.com">dev.charliemchapman@gmail.com</a></p>
           </div>
