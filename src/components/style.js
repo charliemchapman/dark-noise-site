@@ -560,6 +560,11 @@ export default createGlobalStyle`
     grid-template-areas: "h h h h h h h h h h h h" "p p p p p p p p p p p p" "c c c c c c c c c c c c" "f f f f f f f f f f f f";
   }
 
+  .presskitPage {
+    display: block;
+    grid-template-areas: "h h h h h h h h h h h h" "p p p p p p p p p p p p" "c c c c c c c c c c c c" "f f f f f f f f f f f f";
+  }
+
   p {
     line-height: 25px;
   }
@@ -591,9 +596,19 @@ export default createGlobalStyle`
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
+    border-width: 1px;
+    border-color: #444;
+    border-style: solid;
   }
   
-  .presskit-screenshots{
+  .presskit-iphone-screenshots{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .presskit-ipad-screenshots{
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -604,9 +619,21 @@ export default createGlobalStyle`
     width: 23%;
   }
 
-  .presskit-screenshot img{
+  .presskit-iphone-screenshots img{
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
+    border-width: 1px;
+    border-color: #444;
+    border-style: solid;
+  }
+
+  .presskit-ipad-screenshots img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #444;
+    border-style: solid;
   }
 `

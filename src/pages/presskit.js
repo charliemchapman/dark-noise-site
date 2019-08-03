@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => (
       }}
     >
       <div className="headerBackground">
-        <div className="container privacyPage">
+        <div className="container presskitPage">
           <header>
             <Link to="/" className="logo">
               <div className="appIconShadow">
@@ -62,7 +62,7 @@ const IndexPage = ({ data }) => (
           </header>
           <div className="presskit-body">
             <h2></h2>
-            <p>Download full Press Kit with screenshots, promo art, and hi-res icon here TODO:LINK</p>
+            <p>Download full Press Kit with screenshots, promo art, and hi-res icon <a href="https://s3.us-east-2.amazonaws.com/media.charliemchapman.com/Dark_Noise_PressKit.zip">here</a>.</p>
             <h2>Dark Noise</h2>
             <p>
               Dark Noise is a delightful ambient noise app that's designed for simplicity with a lot of power under the hood.  Each of the over 30 ambient noises feature a custom built animated icon that brings app to life.
@@ -87,47 +87,91 @@ const IndexPage = ({ data }) => (
                 <img src="/banners/dark-noise-banner-02-wAppStore.png" />
               </a>
             </div>
-            <div className="presskit-screenshots">
+            <div className="presskit-iphone-screenshots">
               <div className="presskit-screenshot">
-                  <a href="/screenshots/app-store/screenshot_01.png">
-                    <img src="/screenshots/app-store/screenshot_01.png" />
+                  <a href="/screenshots/app-store/screenshot_iphone_01.png">
+                    <img src="/screenshots/app-store/screenshot_iphone_01.png" />
                   </a>
               </div>
               <div className="presskit-screenshot">
-                  <a href="/screenshots/app-store/screenshot_02.png">
-                    <img src="/screenshots/app-store/screenshot_02.png" />
+                  <a href="/screenshots/app-store/screenshot_iphone_02.png">
+                    <img src="/screenshots/app-store/screenshot_iphone_02.png" />
                   </a>
               </div>
               <div className="presskit-screenshot">
-                  <a href="/screenshots/app-store/screenshot_03.png">
-                    <img src="/screenshots/app-store/screenshot_03.png" />
+                  <a href="/screenshots/app-store/screenshot_iphone_03.png">
+                    <img src="/screenshots/app-store/screenshot_iphone_03.png" />
                   </a>
               </div>
               <div className="presskit-screenshot">
-                  <a href="/screenshots/app-store/screenshot_04.png">
-                    <img src="/screenshots/app-store/screenshot_04.png" />
+                  <a href="/screenshots/app-store/screenshot_iphone_04.png">
+                    <img src="/screenshots/app-store/screenshot_iphone_04.png" />
                   </a>
               </div>
             </div>
-            <div className="presskit-screenshots">
+            <div className="presskit-iphone-screenshots">
               <div className="presskit-screenshot">
-                  <a href="/screenshots/app-store/screenshot_05.png">
-                    <img src="/screenshots/app-store/screenshot_05.png" />
+                  <a href="/screenshots/app-store/screenshot_iphone_05.png">
+                    <img src="/screenshots/app-store/screenshot_iphone_05.png" />
                   </a>
               </div>
               <div className="presskit-screenshot">
-                  <a href="/screenshots/app-store/screenshot_06.png">
-                    <img src="/screenshots/app-store/screenshot_06.png" />
+                  <a href="/screenshots/app-store/screenshot_iphone_06.png">
+                    <img src="/screenshots/app-store/screenshot_iphone_06.png" />
                   </a>
               </div>
               <div className="presskit-screenshot">
-                  <a href="/screenshots/app-store/screenshot_07.png">
-                    <img src="/screenshots/app-store/screenshot_07.png" />
+                  <a href="/screenshots/app-store/screenshot_iphone_07.png">
+                    <img src="/screenshots/app-store/screenshot_iphone_07.png" />
                   </a>
               </div>
               <div className="presskit-screenshot">
-                  <a href="/screenshots/app-store/screenshot_08.png">
-                    <img src="/screenshots/app-store/screenshot_08.png" />
+                  <a href="/screenshots/app-store/screenshot_iphone_08.png">
+                    <img src="/screenshots/app-store/screenshot_iphone_08.png" />
+                  </a>
+              </div>
+            </div>
+            <div className="presskit-ipad-screenshots">
+              <div className="presskit-screenshot">
+                  <a href="/screenshots/app-store/screenshot_ipad_01.png">
+                    <img src="/screenshots/app-store/screenshot_ipad_01.png" />
+                  </a>
+              </div>
+              <div className="presskit-screenshot">
+                  <a href="/screenshots/app-store/screenshot_ipad_02.png">
+                    <img src="/screenshots/app-store/screenshot_ipad_02.png" />
+                  </a>
+              </div>
+              <div className="presskit-screenshot">
+                  <a href="/screenshots/app-store/screenshot_ipad_03.png">
+                    <img src="/screenshots/app-store/screenshot_ipad_03.png" />
+                  </a>
+              </div>
+              <div className="presskit-screenshot">
+                  <a href="/screenshots/app-store/screenshot_ipad_04.png">
+                    <img src="/screenshots/app-store/screenshot_ipad_04.png" />
+                  </a>
+              </div>
+            </div>
+            <div className="presskit-ipad-screenshots">
+              <div className="presskit-screenshot">
+                  <a href="/screenshots/app-store/screenshot_ipad_05.png">
+                    <img src="/screenshots/app-store/screenshot_ipad_05.png" />
+                  </a>
+              </div>
+              <div className="presskit-screenshot">
+                  <a href="/screenshots/app-store/screenshot_ipad_06.png">
+                    <img src="/screenshots/app-store/screenshot_ipad_06.png" />
+                  </a>
+              </div>
+              <div className="presskit-screenshot">
+                  <a href="/screenshots/app-store/screenshot_ipad_07.png">
+                    <img src="/screenshots/app-store/screenshot_ipad_07.png" />
+                  </a>
+              </div>
+              <div className="presskit-screenshot">
+                  <a href="/screenshots/app-store/screenshot_ipad_08.png">
+                    <img src="/screenshots/app-store/screenshot_ipad_08.png" />
                   </a>
               </div>
             </div>
