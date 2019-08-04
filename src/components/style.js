@@ -592,6 +592,17 @@ export default createGlobalStyle`
     margin-bottom: 20px;
   }
 
+  .presskit-hero {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .presskit-hero img{
+    width: 100%;
+    max-height: 100%;
+  }
+
   .presskit-banner img{
     max-width: 100%;
     max-height: 100%;
