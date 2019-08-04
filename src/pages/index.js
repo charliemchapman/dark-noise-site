@@ -47,9 +47,9 @@ const IndexPage = ({ data }) => (
             </div>
             <nav>
               <ul>
-                {/* <li>
+                <li>
                   <Link to="/presskit">Press Kit</Link>
-                </li> */}
+                </li>
                 <li>
                   <Link to="/privacy-policy">Privacy Policy</Link>
                 </li>

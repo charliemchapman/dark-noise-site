@@ -49,11 +49,9 @@ const IndexPage = ({ data }) => (
             </Link>
             <nav>
               <ul>
-                {configs.presskit_download_link && (
-                  <li>
-                    <a href={configs.presskit_download_link}>Press Kit</a>
-                  </li>
-                )}
+                <li>
+                  <Link to="/presskit">Press Kit</Link>
+                </li>
                 <li>
                 <Link to="/privacy-policy">Privacy Policy</Link>
                 </li>

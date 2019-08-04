@@ -49,11 +49,9 @@ const IndexPage = ({ data }) => (
             </Link>
             <nav>
               <ul>
-                {configs.presskit_download_link && (
-                  <li>
-                    <a href={configs.presskit_download_link}>Press Kit</a>
-                  </li>
-                )}
+                <li>
+                  <Link to="/presskit">Press Kit</Link>
+                </li>
                 <li>
                 <Link to="/privacy-policy">Privacy Policy</Link>
                 </li>
@@ -70,13 +68,13 @@ const IndexPage = ({ data }) => (
             </div>
             <h2>Dark Noise</h2>
             <p>
-              Dark Noise is a delightful ambient noise app designed for simplicity but powerful under the hood.  Each of the 30+ high quality ambient noises feature a custom built animated icon that brings the sound to life.
+              Dark Noise is a delightful ambient noise app designed to be simple to use, with a lot of powerful features under the hood.  Each of the 30+ high quality ambient noises feature a custom built animated icon that brings the sound to life.
             </p>
             <p>
-              Let's be honest, an ambient noise should play your noise and get out of your way as quickly as possible.  Dark Noise was designed with this in mind.
+              Let's be honest, an ambient noise app should play your noise and get out of your way as quickly as possible.  Dark Noise was designed with this in mind.
             </p>
             <p>
-              Power users can access Dark Noise faster with Siri Shortcuts integrations, Today Extension widgets, and force touch quick actions.  Dark Noise features over 20 custom home screen icons and has alternate light and pure black themes.
+              Power users will enjoy faster access to Dark Noise with Siri Shortcuts integrations, Today Extension widgets, and home screen quick actions.  Dark Noise features over 20 custom home screen icons and has alternate light and pure black themes.
             </p>
             <p>
               At release, Dark Noise will be available for iPhone and iPad for the introductory price of $3.99 on the App Store here <a href="https://itunes.apple.com/app/id1465439395">https://itunes.apple.com/app/id1465439395</a>
@@ -180,13 +178,15 @@ const IndexPage = ({ data }) => (
                   </a>
               </div>
             </div>
-            <h2>Awards &amp; Recognition</h2>
+            {/* <h2>Praise for Dark Noise</h2>
             <p>TBD 🤪</p>
+            <h2>Awards</h2>
+            <p>TBD 🤪</p> */}
             <h2>About the Developer</h2>
             <p>👋 Hi, I'm Charlie Chapman</p>
             <p>I'm a software engineer in St. Louis, Missouri by day, and a designer, motion graphics artist, podcaster, and indie dev by night.</p>
-            <p>I've been building software for over 8 years, but I'm pretty new to the iOS scene. I've been blown away by the kindness and helpfulness of the iOS development community so far, and I'm excited to finally join them on the store.</p>
-            <p>This app also wouldn't be possible without the patience and vigilant beta testing of my wife Kristen. My two sons, Jack and Max, also contributed with their own hand drawn alternate icons featured in the app!</p>
+            <p>I've been building software for over 8 years, and I'm pretty new to the iOS scene. I've been blown away by the kindness and helpfulness of the iOS development community so far, and I'm excited to finally join them on the store.</p>
+            <p>This app also wouldn't be possible without the patience and vigilant beta testing of my wife. My two sons also contributed with their own hand drawn alternate icons featured in the app!</p>
             <h2>Contact</h2>
             <p>For any questions or to request a promo code email me at <a href="mailto:dev.charliemchapman@gmail.com">dev.charliemchapman@gmail.com</a></p>
           </div>
