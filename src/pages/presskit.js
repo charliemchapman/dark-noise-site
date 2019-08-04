@@ -70,16 +70,16 @@ const IndexPage = ({ data }) => (
             </div>
             <h2>Dark Noise</h2>
             <p>
-              Dark Noise is a delightful ambient noise app that's designed for simplicity with a lot of power under the hood.  Each of the over 30 high quality ambient noises feature a custom built animated icon that brings the app to life.
+              Dark Noise is a delightful ambient noise app designed for simplicity but powerful under the hood.  Each of the 30+ high quality ambient noises feature a custom built animated icon that brings the sound to life.
             </p>
             <p>
-              Let's be honest, an ambient noise app's job is to play your noise and get out of the way as quickly as possible, and Dark Noise was designed from the beginning with this in mind.
+              Let's be honest, an ambient noise should play your noise and get out of your way as quickly as possible.  Dark Noise was designed with this in mind.
             </p>
             <p>
-              Power users can go even faster with Siri Shortcuts integrations, Today Extension widgets, auto-play, and force touch quick actions.  There are also over 20 custom home screen icons and alternate light and pure black themes.
+              Power users can access Dark Noise faster with Siri Shortcuts integrations, Today Extension widgets, and force touch quick actions.  Dark Noise features over 20 custom home screen icons and has alternate light and pure black themes.
             </p>
             <p>
-              At release, Dark Noise will be available for iPhone and iPad for the introductory price of $4.99 on the App Store here <a href="https://itunes.apple.com/app/id1465439395">https://itunes.apple.com/app/id1465439395</a>
+              At release, Dark Noise will be available for iPhone and iPad for the introductory price of $3.99 on the App Store here <a href="https://itunes.apple.com/app/id1465439395">https://itunes.apple.com/app/id1465439395</a>
             </p>
             <h2>Promo Images</h2>
             <div className="presskit-banner">
