@@ -76,10 +76,10 @@ const IndexPage = ({ data }) => (
               Let's be honest, an ambient noise app's job is to play your noise and get out of the way as quickly as possible, and Dark Noise was designed from the beginning with this in mind.
             </p>
             <p>
-              Power users can go even faster with Siri Shortcuts integrations, Today Extension Widgets, auto-play, and force touch quick actions.  There are also over 20 custom home screen icons and alternate light and pure black themes.
+              Power users can go even faster with Siri Shortcuts integrations, Today Extension widgets, auto-play, and force touch quick actions.  There are also over 20 custom home screen icons and alternate light and pure black themes.
             </p>
             <p>
-              At release Dark Noise will be available for iPhone and iPad for the introductory price of $4.99 on the App Store here <a href="https://itunes.apple.com/app/id1465439395">https://itunes.apple.com/app/id1465439395</a>
+              At release, Dark Noise will be available for iPhone and iPad for the introductory price of $4.99 on the App Store here <a href="https://itunes.apple.com/app/id1465439395">https://itunes.apple.com/app/id1465439395</a>
             </p>
             <h2>Promo Images</h2>
             <div className="presskit-banner">
@@ -185,7 +185,8 @@ const IndexPage = ({ data }) => (
             <h2>About the Developer</h2>
             <p>👋 Hi, I'm Charlie Chapman</p>
             <p>I'm a software engineer in St. Louis, Missouri by day, and a designer, motion graphics artist, podcaster, and indie dev by night.</p>
-            <p>I developed Dark Noise originally for myself. I wanted a dead simple white noise app that takes advantage of all of the wonderful integrations iOS has to offer without a busy and confusing interface.</p>
+            <p>I've been building software for over 8 years, but I'm pretty new to the iOS scene. I've been blown away by the kindness and helpfulness of the iOS development community so far, and I'm excited to finally join them on the store.</p>
+            <p>This app also wouldn't be possible without the patience and vigilant beta testing of my wife Kristen. My two sons, Jack and Max, also contributed with their own hand drawn alternate icons featured in the app!</p>
             <h2>Contact</h2>
             <p>For any questions or to request a promo code email me at <a href="mailto:dev.charliemchapman@gmail.com">dev.charliemchapman@gmail.com</a></p>
           </div>
