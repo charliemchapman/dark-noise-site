@@ -508,7 +508,7 @@ export default createGlobalStyle`
   }
 
   .footerIcons {
-    padding-bottom: 70px;
+    padding-bottom: 35px;
     display: flex;
   }
 
@@ -524,7 +524,7 @@ export default createGlobalStyle`
     }
 
     .footerIcons {
-      padding-bottom: 70px;
+      padding-bottom: 35px;
       display: flex;
     }
   }
@@ -647,4 +647,26 @@ export default createGlobalStyle`
     border-color: #444;
     border-style: solid;
   }
+
+  .presskit-video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+  }
+  .presskit-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer-privacy {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 0.85em;
+}
 `

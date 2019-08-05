@@ -52,9 +52,6 @@ const IndexPage = ({ data }) => (
                 <li>
                   <Link to="/presskit">Press Kit</Link>
                 </li>
-                <li>
-                <Link to="/privacy-policy">Privacy Policy</Link>
-                </li>
               </ul>
             </nav>
           </header>
@@ -236,6 +233,9 @@ const IndexPage = ({ data }) => (
                   </span>
                 </a>
               )}
+            </div>
+            <div className="footer-privacy">
+                <Link to="/privacy-policy">Privacy Policy</Link>
             </div>
           </footer>
           {/*TODO: Add App Store API */}

@@ -52,9 +52,6 @@ const IndexPage = ({ data }) => (
                 <li>
                   <Link to="/presskit">Press Kit</Link>
                 </li>
-                <li>
-                <Link to="/privacy-policy">Privacy Policy</Link>
-                </li>
               </ul>
             </nav>
           </header>
@@ -79,6 +76,10 @@ const IndexPage = ({ data }) => (
             <p>
               At release, Dark Noise will be available for iPhone and iPad for the introductory price of $3.99 on the App Store here <a href="https://itunes.apple.com/app/id1465439395">https://itunes.apple.com/app/id1465439395</a>
             </p>
+            <h2>Launch Trailer</h2>
+            <div className="presskit-video">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Q7BDtu9CkAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <h2>Promo Images</h2>
             <div className="presskit-banner">
               <a href="/banners/dark-noise-banner-01-wAppStore.png">
@@ -257,6 +258,9 @@ const IndexPage = ({ data }) => (
                   </span>
                 </a>
               )}
+            </div>
+            <div className="footer-privacy">
+                <Link to="/privacy-policy">Privacy Policy</Link>
             </div>
           </footer>
           {/*TODO: Add App Store API */}
