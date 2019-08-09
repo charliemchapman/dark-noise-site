@@ -537,6 +537,8 @@ export default createGlobalStyle`
     grid-area: p; 
     color: white
     line-height: normal;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .privacyPolicy h1 {
