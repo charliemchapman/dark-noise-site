@@ -74,7 +74,7 @@ const IndexPage = ({ data }) => (
               Power users will enjoy faster access to Dark Noise with Siri Shortcuts integrations, Today Extension widgets, and home screen quick actions.  Dark Noise features over 20 custom home screen icons and has alternate light and pure black themes.
             </p>
             <p>
-              At release, Dark Noise will be available for iPhone and iPad for the introductory price of $3.99 on the App Store here <a href="https://itunes.apple.com/app/id1465439395">https://itunes.apple.com/app/id1465439395</a>
+              Dark Noise is due for release on Tuesday, August 27th, and will be available for the introductory price of $3.99 on the App Store.
             </p>
             <h2>Launch Trailer</h2>
             <div className="presskit-video">
