@@ -1,6 +1,6 @@
 module.exports = {
   // App Info
-  appstore_link         : null,                                  // Enter App Store URL.
+  appstore_link         : "https://apps.apple.com/us/app/dark-noise/id1465439395",                                  // Enter App Store URL.
   playstore_link        : null,                                         // Enter Google Play Store URL.
   google_analytics_ID   : null,                                         // Enter Google Analytics ID or ""
   presskit_download_link: null,                                         // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
