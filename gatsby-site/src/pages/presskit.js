@@ -10,13 +10,26 @@ const IndexPage = () => (
     <SEO title="Press Kit" />
     <div className="presskit-body">
       <h2>Press Kit</h2>
-        <p>Download full Press Kit with screenshots, promo art, and hi-res icon <a href="https://s3.us-east-2.amazonaws.com/media.charliemchapman.com/Dark_Noise_PressKit.zip">here</a>.</p>
+        <p>Download full Press Kit with screenshots, promo art, and hi-res icon <a href="https://s3.us-east-2.amazonaws.com/media.charliemchapman.com/Dark_Noise_PressKit_V2_0.zip">here</a>.</p>
         <div className="presskit-hero">
-          <a href="/banners/dark-noise-hero-transparent.png">
-            <img src="/banners/dark-noise-hero-transparent.png" />
+          <a href="/banners/dark-noise-hero-v2-transparent.png">
+            <img src="/banners/dark-noise-hero-v2-transparent.png" />
           </a>
         </div>
-        <h2>Dark Noise</h2>
+        <h2>Dark Noise 2.0</h2>
+        <p>
+          Dark Noise 2.0 is the next major evolution of the best ambient noise app on iOS. Mixing sounds has been the most requested feature since launch and I’m excited to announce it’s finally here! A lot of work went in to maintaining the simplicity and tight iOS integration Dark Noise is known for and I’m very proud of the results. Along with iCloud syncing, new sounds, new icons, and loads of bug fixes this is the biggest update to date.
+        </p>
+        <h3>New Features</h3>
+        <p><strong>Create Mix • </strong> Build your own custom mix from any number of sounds. Mix multiple of the same sound for even more variety! Animated icons can be built using the new icon creator or images or animated GIFs can be imported from the Photo Library.</p>
+        <p><strong>iCloud Syncing • </strong> Custom mixes and favorites will now sync to all of your devices using iCloud! No need to sign in or configure anything, your data will simply follow you to all of your Apple devices.</p>
+        <p><strong>New Sounds • </strong> New sounds have been added to the Dark Noise catalogue. Rain on Tent, Wind Chimes, and Windy Trees can now be played separate or added to mixes.</p>
+        <p><strong>New Icons • </strong> Inspired by the new design of macOS Big Sur a skeuomorphic icon was added to the list of custom icons. And the new Launched icon is in honor of the podcast of the same name by Dark Noise developer Charlie.</p>
+        <p><strong>And More! • </strong> Bug fixes, improved shortcuts support, and a rewritten audio engine, and even a new “Auto Volume” experimental feature round out the biggest update yet.</p>
+        <p>
+          Dark Noise is available on the App Store <a href="https://apps.apple.com/us/app/dark-noise/id1465439395">here</a> and Dark Noise 2.0 will release on Monday, July 20th.  
+        </p>
+        <h2>Dark Noise 1.0</h2>
         <p>
           Dark Noise is a delightful ambient noise app designed to be simple to use, with a lot of powerful features under the hood.  Each of the 30+ high quality ambient noises feature a custom built animated icon that brings the sound to life.
         </p>
@@ -25,9 +38,6 @@ const IndexPage = () => (
         </p>
         <p>
           Power users will enjoy faster access to Dark Noise with Siri Shortcuts integrations, Today Extension widgets, and home screen quick actions.  Dark Noise features over 20 custom home screen icons and has alternate light and pure black themes.
-        </p>
-        <p>
-          Dark Noise is available for pre-order <a href="https://apps.apple.com/us/app/dark-noise/id1465439395">here</a> and will release on Tuesday, August 27th for the introductory price of $3.99.  
         </p>
         <h2>Launch Trailer</h2>
         <div className="presskit-video">
