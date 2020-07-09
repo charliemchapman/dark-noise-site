@@ -23,7 +23,7 @@ const IndexPage = () => (
         <h3>New Features</h3>
         <p><strong>Create Mix • </strong> Build your own custom mix from any number of sounds. Mix multiple of the same sound for even more variety! Animated icons can be built using the new icon creator or images or animated GIFs can be imported from the Photo Library.</p>
         <p><strong>iCloud Syncing • </strong> Custom mixes and favorites will now sync to all of your devices using iCloud! No need to sign in or configure anything, your data will simply follow you to all of your Apple devices.</p>
-        <p><strong>iPad Pointer Support • </strong> Navigate Dark Noise 2 with a trackpad or mouse with full pointer support on the iPad</p>
+        <p><strong>iPad Pointer Support • </strong> Navigate Dark Noise 2 with a trackpad or mouse with full pointer support on the iPad.</p>
         <p><strong>New Sounds • </strong> New sounds have been added to the Dark Noise catalogue. Rain on Tent, Wind Chimes, and Windy Trees can now be played separate or added to mixes.</p>
         <p><strong>New Icons • </strong> Inspired by the new design of macOS Big Sur a skeuomorphic icon was added to the list of custom icons. And the new Launched icon is in honor of the podcast of the same name by Dark Noise developer Charlie.</p>
         <p><strong>And More! • </strong> Bug fixes, improved shortcuts support, and a rewritten audio engine, and even a new “Auto Volume” experimental feature round out the biggest update yet.</p>
