@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="Press Kit" />
     <div className="presskit-body">
       <h2>Press Kit</h2>
-        <p>Download full Press Kit with screenshots, promo art, and hi-res icon <a href="https://s3.us-east-2.amazonaws.com/media.charliemchapman.com/Dark_Noise_PressKit_V2_0.zip">here</a>.</p>
+        <p>Download Press Kit with screenshots, promo art, and hi-res icon <a href="https://s3.us-east-2.amazonaws.com/media.charliemchapman.com/Dark_Noise_PressKit_V2_0.zip">here</a> and a the promo video for self hosting <a href="https://s3.us-east-2.amazonaws.com/media.charliemchapman.com/dark-noise/dark-noise-2-promo_02.mp4">here</a>.</p>
         <div className="presskit-hero">
           <a href="/banners/dark-noise-hero-v2-transparent.png">
             <img src="/banners/dark-noise-hero-v2-transparent.png" />
@@ -23,6 +23,7 @@ const IndexPage = () => (
         <h3>New Features</h3>
         <p><strong>Create Mix • </strong> Build your own custom mix from any number of sounds. Mix multiple of the same sound for even more variety! Animated icons can be built using the new icon creator or images or animated GIFs can be imported from the Photo Library.</p>
         <p><strong>iCloud Syncing • </strong> Custom mixes and favorites will now sync to all of your devices using iCloud! No need to sign in or configure anything, your data will simply follow you to all of your Apple devices.</p>
+        <p><strong>iPad Pointer Support • </strong> Navigate Dark Noise 2 with a trackpad or mouse with full pointer support on the iPad</p>
         <p><strong>New Sounds • </strong> New sounds have been added to the Dark Noise catalogue. Rain on Tent, Wind Chimes, and Windy Trees can now be played separate or added to mixes.</p>
         <p><strong>New Icons • </strong> Inspired by the new design of macOS Big Sur a skeuomorphic icon was added to the list of custom icons. And the new Launched icon is in honor of the podcast of the same name by Dark Noise developer Charlie.</p>
         <p><strong>And More! • </strong> Bug fixes, improved shortcuts support, and a rewritten audio engine, and even a new “Auto Volume” experimental feature round out the biggest update yet.</p>
@@ -39,9 +40,10 @@ const IndexPage = () => (
         <p>
           Power users will enjoy faster access to Dark Noise with Siri Shortcuts integrations, Today Extension widgets, and home screen quick actions.  Dark Noise features over 20 custom home screen icons and has alternate light and pure black themes.
         </p>
-        <h2>Launch Trailer</h2>
+        <p>Dark Noise 1.0 presskit is available <Link to="/presskit-v1">here</Link>.</p>
+        <h2>Dark Noise 2 Video Promo</h2>
         <div className="presskit-video">
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Q7BDtu9CkAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/D4dbuYqoHmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <h2>Promo Images</h2>
         <div className="presskit-banner">
@@ -152,7 +154,7 @@ const IndexPage = () => (
         <p>I've been building software for over 8 years, and I'm pretty new to the iOS scene. I've been blown away by the kindness and helpfulness of the iOS development community so far, and I'm excited to finally join them on the store.</p>
         <p>This app also wouldn't be possible without the patience and vigilant beta testing of my wife. My two sons also contributed with their own hand drawn alternate icons featured in the app!</p>
         <h2>Contact</h2>
-        <p>For any questions or to request a promo code email me at <a href="mailto:dev.charliemchapman@gmail.com">dev.charliemchapman@gmail.com</a></p>
+        <p>For any questions or to request a promo code email me at <a href="mailto:charlie@darknoise.app">charlie@darknoise.app</a></p>
       </div>
   </Layout>
 )
