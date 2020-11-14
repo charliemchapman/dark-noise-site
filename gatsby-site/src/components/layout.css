@@ -704,7 +704,7 @@ footer {
 .presskit-video {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
+  margin-top: 25px;
   height: 0;
 }
 
@@ -795,7 +795,7 @@ footer {
 .presskit-video {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
+  margin-top: 25px;
   height: 0;
 }
 .presskit-video iframe {
