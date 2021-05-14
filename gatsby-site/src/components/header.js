@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <div className="header-links">
-        <Link to="/presskit-v2">Press Kit</Link>
+        <Link to="/presskit-v3">Press Kit</Link>
       </div>
     </div>
   </header>

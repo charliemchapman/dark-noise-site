@@ -770,8 +770,19 @@ footer {
   margin-bottom: 20px;
 }
 
+.presskit-mac-screenshots{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
 .presskit-screenshot{
   width: 23%;
+}
+
+.presskit-mac-screenshots .presskit-screenshot {
+  width: 48%;
 }
 
 .presskit-iphone-screenshots img{
@@ -784,6 +795,15 @@ footer {
 }
 
 .presskit-ipad-screenshots img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #444;
+  border-style: solid;
+}
+
+.presskit-mac-screenshots img{
   max-width: 100%;
   max-height: 100%;
   border-radius: 5px;

@@ -1,9 +1,9 @@
 import React from "react"
 
-import PressKitV2 from "./presskit-v2"
+import PressKitV3 from "./presskit-v3"
 
 const IndexPage = () => (
-  <PressKitV2/>
+  <PressKitV3/>
 )
 
 export default IndexPage
