@@ -29,6 +29,9 @@ const IndexPage = () => (
         <p>
           Dark Noise is available on the App Store <a href="https://apps.apple.com/us/app/dark-noise/id1465439395">here</a> and Dark Noise for Mac will release on Tuesday, May 25th as a universal app including the iPhone and iPad versions. Existing Dark Noise customers will be able to download Dark Noise for Mac for free.
         </p>
+        <p>
+          You can find the latest beta release <a href="https://github.com/charliemchapman/dark-noise-mac-beta/releases">here</a>.
+        </p>
         <br/>
         <h3>App Store Screenshots</h3>
         <div className="presskit-mac-screenshots">
