@@ -3,11 +3,13 @@ headerLinks:
     link: /contact.html
   - name: About
     link: /about.html
+  - name: Press
+    link: /press.html
 sections:
   - name: Get
     links:
     - name: Download App
-      link: /link1.html
+      link: https://apps.apple.com/us/app/dark-noise/id1465439395
   - name: About
     links:
     - name: Releases
