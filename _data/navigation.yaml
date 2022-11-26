@@ -1,0 +1,30 @@
+headerLinks:
+  - name: Contact
+    link: /contact.html
+  - name: About
+    link: /about.html
+sections:
+  - name: Get
+    links:
+    - name: Download App
+      link: /link1.html
+  - name: About
+    links:
+    - name: Releases
+      link: /releases.html
+    - name: Roadmap
+      link: /roadmap.html
+    - name: Privacy Policy
+      link: /privacy-policy.html
+    - name: Press
+      link: /press.html
+  - name: Contact
+    links:
+    - name: FAQ
+      link: /faq.html
+    - name: Email
+      link: /email.html
+    - name: Twitter
+      link: https://twitter.com/darknoiseapp
+    - name: Mastodon
+      link: https://indieapps.space/@darknoise
