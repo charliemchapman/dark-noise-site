@@ -7,6 +7,20 @@ layout: markdown
 
 Download Press Kit with screenshots, promo art, and hi-res icon [here](https://s3.us-east-2.amazonaws.com/media.charliemchapman.com/Dark_Noise_PressKit_V2_5-Mac.zip) and a promo video for self hosting [here](https://s3.us-east-2.amazonaws.com/media.charliemchapman.com/dark-noise/dark-noise-mac-trailer.mp4).
 
+{% for section in site.data.press.sections %}
+
+## {{ section.title }}
+
+<div class="press-images">
+    {% for image in section.images %}
+    <a href="{{ image.url }}">
+        <img src="{{ image.url }}">
+    </a>
+    {% endfor %}
+</div>
+
+{% endfor %}
+
 ### About the Developer
 
 👋 Hi, I'm Charlie Chapman

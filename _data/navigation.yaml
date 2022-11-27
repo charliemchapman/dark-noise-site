@@ -1,6 +1,6 @@
 headerLinks:
-  - name: Press
-    link: /press.html
+  # - name: Press
+  #   link: /press.html
 sections:
   - name: Get
     links:
@@ -10,16 +10,16 @@ sections:
     links:
     - name: Releases
       link: /releases.html
-    - name: Roadmap
-      link: /roadmap.html
+    # - name: Roadmap
+    #   link: /roadmap.html
     - name: Privacy Policy
       link: /privacy-policy.html
     - name: Press
       link: /press.html
   - name: Contact
     links:
-    - name: FAQ
-      link: /faq.html
+    # - name: FAQ
+    #   link: /faq.html
     - name: Email
       link: mailto:charlie@darknoise.app
     - name: Twitter
