@@ -23,6 +23,11 @@ body {
     h1, h2, h3, h4, h5 {
         font-weight: 600;
         line-height: 1.2;
+        color: white;
+    }
+
+    p, ul, ol {
+        color: white;
     }
 
     a {
@@ -34,7 +39,7 @@ body {
     }
 
     .content {
-        background-color: #322D3C;
+        background-color: #1f1a27;
 
         .content-centered {
             padding-top: 60px;
@@ -397,6 +402,12 @@ body {
     }
 }
 
+.markdown-content {
+    padding: 2px 16px 16px 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -427,6 +438,10 @@ body {
                 color: white
             }
         }
+    }
+
+    .signature {
+        opacity: 0.5;
     }
 
     p {

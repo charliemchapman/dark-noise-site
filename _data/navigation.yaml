@@ -1,8 +1,4 @@
 headerLinks:
-  - name: Contact
-    link: /contact.html
-  - name: About
-    link: /about.html
   - name: Press
     link: /press.html
 sections:
@@ -25,7 +21,7 @@ sections:
     - name: FAQ
       link: /faq.html
     - name: Email
-      link: /email.html
+      link: mailto:charlie@darknoise.app
     - name: Twitter
       link: https://twitter.com/darknoiseapp
     - name: Mastodon
