@@ -13,7 +13,7 @@ sections:
     # - name: Roadmap
     #   link: /roadmap.html
     - name: Privacy Policy
-      link: /privacy-policy.html
+      link: /privacy-policy
     - name: Press
       link: /press.html
   - name: Contact
