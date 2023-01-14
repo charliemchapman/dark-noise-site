@@ -1,6 +1,10 @@
 headerLinks:
-  # - name: Press
-  #   link: /press.html
+  - name: Download
+    link: https://apps.apple.com/us/app/dark-noise/id1465439395
+  - name: Press
+    link: /press
+  - name: Help
+    link: /Help
 sections:
   - name: Get
     links:
@@ -9,17 +13,17 @@ sections:
   - name: About
     links:
     - name: Releases
-      link: /releases.html
+      link: /releases
     # - name: Roadmap
     #   link: /roadmap.html
     - name: Privacy Policy
       link: /privacy-policy
     - name: Press
-      link: /press.html
+      link: /press
   - name: Contact
     links:
-    # - name: FAQ
-    #   link: /faq.html
+    - name: Help
+      link: /help
     - name: Email
       link: mailto:charlie@darknoise.app
     - name: Twitter

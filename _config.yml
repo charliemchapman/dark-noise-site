@@ -1,6 +1,7 @@
 
 title: Dark Noise
 email: charlie@darknoise.app
+supportEmail: charlie@darknoise.app
 description: >- # this means to ignore newlines until "baseurl:"
   The official site of the Dark Noise app for iPhone, iPad, and Mac.
 url: "https://darknoise.app"
@@ -20,6 +21,8 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  support:
+    output: true
 
 defaults:
   - scope:
