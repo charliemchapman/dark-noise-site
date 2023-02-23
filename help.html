@@ -5,10 +5,6 @@ title: Help
 
 <h1>Help</h1>
 
-<p>For feature requests or new sound requests please don't hesitate to email me at <a href="mailto:{{ site.supportEmail }}?subject=Feature Request">{{ site.supportEmail }}</a>.</p>
-<p>I am not able to implement every new idea or add every new sound, but they absolutely influence how I proritize my new work so I appreciate all feedback!</p>
-
-<h3>Support</h3>
 {% for tag in site.data.support.tags %}
       <h4>{{ tag.name }}</h4>
       <ul>
@@ -19,3 +15,7 @@ title: Help
             {% endfor %}
       </ul>
 {% endfor %}
+
+<h3>More Help</h3>
+<p>For feature requests or new sound requests please use the <a href="https://tally.so/r/wdEq4A">Request a Feature Form</a> or <a href="https://tally.so/r/wAzPGk">Request a New Sound Form</a>.</p>
+<p>For any additional questions don't hesitate to email me at <a href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a>.</p>
