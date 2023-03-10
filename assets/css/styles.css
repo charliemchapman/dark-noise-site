@@ -154,7 +154,7 @@ body .content .content-centered { padding-top: 60px; margin-left: auto; margin-r
 
 .page-not-found { text-align: center; padding-bottom: 20px; }
 
-.support-group { background-color: #FFFFFF19; padding: 20px 20px 5px 20px; margin: 20px 0; border-radius: 20px; }
+.support-group { background-color: #FFFFFF09; padding: 20px 20px 5px 20px; margin: 20px 0; border-radius: 20px; border: 1px solid #FFFFFF11; }
 
 .support-group h3 { margin: 0; }
 
