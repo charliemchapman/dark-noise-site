@@ -5,6 +5,24 @@ layout: markdown
 
 # Major Releases
 
+### Dark Noise 3.0
+
+Dark Noise, the popular white noise app, has just released its latest version, Dark Noise 3.0.
+
+The biggest new feature in Dark Noise 3.0 is the introduction of a free tier. The free tier includes access to 8 free sounds as well as full support for infinitely looping sounds, Shortcuts, Siri integration, and the Timer feature. This means that you can now enjoy the best white noise app for free!
+
+For those who want even more features and sounds, there is **Dark Noise Pro**. This optional upgrade unlocks over 50 sounds, the ability to create custom mixes, alternate app icons, and alternate premium themes. With Dark Noise Pro, you can customize your white noise experience to your liking.
+
+![Dark Noise Tier Comparisons](/assets/press/promos/dark-noise-pro-compare.jpg)
+
+Dark Noise 3.0 also begins the process of imporving the experience of Dark Noise with headphones or nicer speakers. This update includes **4 high quality stereo remasters** of existing sounds: Rain, Thunderstorm, Beach, and Airplane Interior. Future updates will include more remasters as well as a new focus on increasing the variety of sounds in Dark Noise.
+
+Users who purchased Dark Noise before the 3.0 update will have all current Dark Noise Pro features unlocked automatically. There may be features in the future that require Dark Noise Pro, but for now they will get all of the same features Dark Noise Pro.
+
+Dark Noise 3.0 is available on the App Store to download for free. Dark Noise Pro is currently available for $2.99 a month, $19.99 a year with a 3 day trial, or a one time purchase for $49.99. 
+
+<br/>
+
 ### Dark Noise 2.5 - Welcome to the Mac
 
 Dark Noise is coming to the Mac! The sleek UI and large selection of ambient sounds you know and love are now easier than ever to use while you work.
