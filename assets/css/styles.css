@@ -132,6 +132,8 @@ body .content .content-centered { padding-top: 60px; margin-left: auto; margin-r
 
 .markdown-content .presskit-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
+.markdown-content img { width: 100%; }
+
 .press-images { display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 36px; }
 
 .press-images a { margin: 2px 4px; }
