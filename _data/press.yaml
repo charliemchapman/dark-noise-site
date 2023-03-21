@@ -9,14 +9,14 @@ sections:
       - url: /assets/press/promos/dark-noise-ios16-banner.jpg
   - title: iPhone Screenshots
     images:
-      - url: /assets/press/screenshots/iphone/screenshot_iphone_01.png
-      - url: /assets/press/screenshots/iphone/screenshot_iphone_02.png
-      - url: /assets/press/screenshots/iphone/screenshot_iphone_03.png
-      - url: /assets/press/screenshots/iphone/screenshot_iphone_04.png
-      - url: /assets/press/screenshots/iphone/screenshot_iphone_05.png
-      - url: /assets/press/screenshots/iphone/screenshot_iphone_06.png
-      - url: /assets/press/screenshots/iphone/screenshot_iphone_07.png
-      - url: /assets/press/screenshots/iphone/screenshot_iphone_08.png
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_01.png
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_02.png
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_03.png
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_04.png
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_05.png
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_06.png
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_07.png
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_08.png
   - title: iPad Screenshots
     images:
       - url: /assets/press/screenshots/ipad/screenshot_ipad_01.png
