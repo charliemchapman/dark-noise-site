@@ -5,13 +5,13 @@ sections:
       - url: /assets/press/promos/dark-noise-icon-v2-primary-rounded.png
   - title: Promo Images
     images:
+      - url: /assets/press/promos/dark-noise-pro-compare.jpg
       - url: /assets/press/promos/dark-noise-banner-01-wAppStore.png
       - url: /assets/press/promos/dark-noise-banner-02-wAppStore.png
       - url: /assets/press/promos/dark-noise-hero-v2-transparent.png
       - url: /assets/press/promos/dark-noise-hero-v3-transparent.png
       - url: /assets/press/promos/dark-noise-dynamic-island-banner.jpg
       - url: /assets/press/promos/dark-noise-ios16-banner.jpg
-      - url: /assets/press/promos/dark-noise-pro-compare.jpg
   - title: iPhone Screenshots
     images:
       - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_01.png

@@ -5,6 +5,8 @@ layout: markdown
 
 # Press
 
+Here you can find promotional assets and screenshots for press use. Details on all major releases can be found [here](./releases).
+
 {% for section in site.data.press.sections %}
 
 ## {{ section.title }}
