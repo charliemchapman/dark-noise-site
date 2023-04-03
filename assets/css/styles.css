@@ -134,6 +134,8 @@ body .content .content-centered { padding-top: 60px; margin-left: auto; margin-r
 
 .markdown-content img { width: 100%; }
 
+.post-content { border-bottom: 1px #ccc solid; padding-bottom: 40px; margin-bottom: 60px; }
+
 .press-images { display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 36px; }
 
 .press-images a { margin: 2px 4px; }
