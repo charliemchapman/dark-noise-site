@@ -5,6 +5,8 @@ supportEmail: charlie@darknoise.app
 description: >- # this means to ignore newlines until "baseurl:"
   The official site of the Dark Noise app for iPhone, iPad, and Mac.
 url: "https://darknoise.app"
+paginate: 5
+paginate_path: "releases/:num/"
 
 twitter:
   username: DarkNoiseApp
@@ -25,6 +27,12 @@ collections:
     output: true
 
 defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /posts/:title
   - scope:
       path: "pages"
     values:

@@ -1,0 +1,23 @@
+---
+title: Releases | Dark Noise
+layout: markdown
+---
+
+<h1>Releases</h1>
+
+<p>You can find press releases for all major Dark Noise updates here. For screenshots and other promotional assets check out our <a href="/press">Press Kit</a>.</p>
+
+</br>
+
+{% for post in site.posts %}
+<h2 class="post-title">
+  <a href="{{ post.url }}">
+    {{ post.title }}
+  </a>
+</h2>
+<p class="post-meta">{{ post.date | date_to_string }}</p>
+
+<div class="post-content">
+  {{ post.content }}
+</div>
+{% endfor %}
