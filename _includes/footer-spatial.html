@@ -1,0 +1,13 @@
+<div class="footer">
+    <div class="footer-links">
+        {% for section in site.data.navigation-spatial.sections %}
+          <div class="section">
+            <h6>{{ section.name }}</h6>
+            {% for link in section.links %}
+              <a href="{{ link.link }}">{{ link.name }}</a>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+    <p class="signature">Made by Charlie Chapman in St. Louis, MO</p>
+</div>

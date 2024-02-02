@@ -1,0 +1,41 @@
+<nav>
+  <div class="main-nav">
+    <a class="logo" href="/spatial/">
+      <img src="/spatial/assets/spatial-noise-icon-cropped.png"/>
+      <h1>Spatial Noise</h1>
+    </a>
+    <div class="links">
+      <div class="empty"></div>
+      {% for item in site.data.navigation-spatial.headerLinks reversed %}
+        <a href="{{ item.link }}" {% if page.url == item.link or (page.url == '/index.html' and item.link == '/') %}class="current"{% endif %}>{{ item.name }}</a>
+      {% endfor %}
+    </div>
+    <div class="expand-links-container">
+      <button class="expand-links" onclick="expandLinks()">
+        <img src="/assets/images/hamburger.png" height="12"/>
+      </button>
+    </div>
+  </div>
+  <div id="sub-nav" class="sub-nav closed">
+    {% for section in site.data.navigation-spatial.sections %}
+      <div class="section">
+        <h6>{{ section.name }}</h6>
+        {% for link in section.links %}
+          <a href="{{ link.link }}">{{ link.name }}</a>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+  <script>
+    function expandLinks() {
+      var subNav = document.getElementById("sub-nav");
+      if (subNav.classList.contains('opened')) {
+        subNav.classList.remove("opened")
+        subNav.classList.add("closed")
+      } else {
+        subNav.classList.add("opened")
+        subNav.classList.remove("closed")
+      }
+    }
+  </script>
+</nav>

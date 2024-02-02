@@ -1,0 +1,24 @@
+headerLinks:
+  - name: Download
+    link: https://apps.apple.com/us/app/spatial-noise-white-sounds/id6476818160
+  - name: Press
+    link: /spatial/press
+sections:
+  - name: Get
+    links:
+    - name: Download App
+      link: https://apps.apple.com/us/app/spatial-noise-white-sounds/id6476818160
+  - name: About
+    links:
+    - name: Privacy Policy
+      link: /spatial/privacy-policy
+    - name: Press
+      link: /spatial/press
+  - name: Contact
+    links:
+    - name: Email
+      link: mailto:charlie@darknoise.app
+    - name: Twitter
+      link: https://twitter.com/_chuckyc
+    - name: Mastodon
+      link: https://mastodon.social/@charliemchapman
