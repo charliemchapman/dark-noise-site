@@ -144,6 +144,8 @@ body .content .content-centered { padding-top: 60px; margin-left: auto; margin-r
 
 .press-images img { max-height: 307px; max-width: 292px; }
 
+p.caption { text-align: center; font-style: italic; margin-top: 4px; }
+
 .footer { display: flex; flex-direction: column; align-content: center; justify-content: center; padding: 15px 0; background-color: #312e37; color: #FFFFFF77; }
 
 .footer .footer-links { display: flex; color: white; justify-content: center; margin-top: 12px; }

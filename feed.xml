@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://darknoise.app/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darknoise.app/" rel="alternate" type="text/html" /><updated>2024-09-11T22:13:49-05:00</updated><id>https://darknoise.app/feed.xml</id><title type="html">Dark Noise</title><subtitle>The official site of the Dark Noise app for iPhone, iPad, and Mac.</subtitle><entry><title type="html">Dark Noise 3.3 - Control Center &amp;amp; Dark Icons</title><link href="https://darknoise.app/posts/dark-noise-3_3" rel="alternate" type="text/html" title="Dark Noise 3.3 - Control Center &amp;amp; Dark Icons" /><published>2024-09-11T00:00:00-05:00</published><updated>2024-09-11T00:00:00-05:00</updated><id>https://darknoise.app/posts/dark-noise-3_3</id><content type="html" xml:base="https://darknoise.app/posts/dark-noise-3_3"><![CDATA[<p><img src="/assets/press/promos/releases/dark-noise-3_3-control-center.jpg" alt="Dark Noise Control Center Widgets" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://darknoise.app/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darknoise.app/" rel="alternate" type="text/html" /><updated>2024-09-12T21:27:14-05:00</updated><id>https://darknoise.app/feed.xml</id><title type="html">Dark Noise</title><subtitle>The official site of the Dark Noise app for iPhone, iPad, and Mac.</subtitle><entry><title type="html">Dark Noise 3.3 - Control Center &amp;amp; Dark Icons</title><link href="https://darknoise.app/posts/dark-noise-3_3" rel="alternate" type="text/html" title="Dark Noise 3.3 - Control Center &amp;amp; Dark Icons" /><published>2024-09-11T00:00:00-05:00</published><updated>2024-09-11T00:00:00-05:00</updated><id>https://darknoise.app/posts/dark-noise-3_3</id><content type="html" xml:base="https://darknoise.app/posts/dark-noise-3_3"><![CDATA[<p><img src="/assets/press/promos/releases/dark-noise-3_3-control-center.jpg" alt="Dark Noise Control Center Widgets" /></p>
 
 <p>Dark Noise 3.3 with support for iOS 18 is now released on the <a href="https://apps.apple.com/us/app/dark-noise/id1465439395">App Store</a>.</p>
 
 <p>From the beginning, Dark Noise has been designed to quickly let users start an ambient soundscape and get back to their life. Deep integrations with iOS such as Shortcuts, home and lock screen widgets, and Siri have all been in service of this goal. Many daily users haven’t opened the app completely in months!</p>
+
+<h2 id="control-center-widgets">Control Center Widgets</h2>
 
 <p>With iOS 18, Dark Noise is continuing that legacy with support for the new Control Center widgets. Users can now add a widget to their control center to toggle a sound of thier choosing. When adding a widget, they’ll be presented with a few configuration options.</p>
 
@@ -10,9 +12,24 @@
 
 <p>Users can optionally set a timer to automatically stop their sound after a certain duration or at a particular time. The long fade option will slowly fade the sound over a long period of time to prevent the sudden stop from waking someone up.</p>
 
+<div class="presskit-video">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AffvLwYXnfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<p class="caption">
+    Quick demo of Dark Noise Control Center widgets.
+</p>
+
+<h2 id="dark-and-tinted-app-icons">Dark and Tinted App Icons</h2>
+
 <p>In addition to Control Center widgets, Dark Noise 3.3 also adds dark and tint mode icons to <strong>all</strong> of the large selection of alternate app icons Dark Noise offers.</p>
 
 <p><img src="/assets/press/promos/releases/dark-noise-3_3/dark-noise-3_3-app-icons.png" alt="Dark Noise App Icons" /></p>
+
+<h2 id="full-video-walkthrough">Full Video Walkthrough</h2>
+
+<p>You can also find a full video walkthrough from developer Charlie Chapman of all of the major new features Dark Noise 3.3 on <a href="https://youtu.be/SLjjZ2k0ld0">Youtube</a>.</p>
+
+<h2 id="available-today">Available Today</h2>
 
 <p>Dark Noise 3.3 is available on the App Store to <a href="https://apps.apple.com/us/app/dark-noise/id1465439395">download for free</a>. Dark Noise Pro is currently available for $2.99 a month, $19.99 a year with a 7 day trial, or a one time purchase for $49.99. Screenshots and promotional material can be found in the updated <a href="/press">press-kit</a>.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://darknoise.app/assets/press/promos/releases/dark-noise-3_3-control-center.jpg" /><media:content medium="image" url="https://darknoise.app/assets/press/promos/releases/dark-noise-3_3-control-center.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dark Noise 3.2 for Mac - Interactive Widgets</title><link href="https://darknoise.app/posts/dark-noise-3_2-mac" rel="alternate" type="text/html" title="Dark Noise 3.2 for Mac - Interactive Widgets" /><published>2023-09-24T00:00:00-05:00</published><updated>2023-09-24T00:00:00-05:00</updated><id>https://darknoise.app/posts/dark-noise-3_2-mac</id><content type="html" xml:base="https://darknoise.app/posts/dark-noise-3_2-mac"><![CDATA[<p><img src="/assets/press/promos/releases/dark-noise-3_2-interactive-widgets-mac.jpg" alt="Dark Noise Interactive Widgets" /></p>
 
