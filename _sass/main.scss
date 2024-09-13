@@ -460,6 +460,12 @@ body {
     }
 }
 
+p.caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 4px;
+}
+
 .footer {
     display: flex;
     flex-direction: column;

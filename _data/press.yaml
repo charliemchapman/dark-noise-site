@@ -3,17 +3,20 @@ sections:
     images:
       - url: /assets/press/promos/dark-noise-icon-v2-primary.jpg
       - url: /assets/press/promos/dark-noise-icon-v2-primary-rounded.png
+      - url: /assets/press/promos/dark-noise-icon-v2-primary-dark.png
+      - url: /assets/press/promos/dark-noise-icon-v2-primary-dark-rounded.png
   - title: Promo Images
     images:
+      - url: /assets/press/promos/dark-noise-hero-v3-transparent.png
+      - url: /assets/press/promos/dark-noise-hero-v2-transparent.png
+      - url: /assets/press/promos/releases/dark-noise-3_3-control-center.jpg
+      - url: /assets/press/promos/releases/dark-noise-3_2-interactive-widgets.jpg
+      - url: /assets/press/promos/releases/dark-noise-3_2-interactive-widgets-mac.jpg
+      - url: /assets/press/promos/dark-noise-ios16-banner.jpg
+      - url: /assets/press/promos/dark-noise-dynamic-island-banner.jpg
       - url: /assets/press/promos/dark-noise-pro-compare.jpg
       - url: /assets/press/promos/dark-noise-banner-01-wAppStore.png
       - url: /assets/press/promos/dark-noise-banner-02-wAppStore.png
-      - url: /assets/press/promos/dark-noise-hero-v2-transparent.png
-      - url: /assets/press/promos/dark-noise-hero-v3-transparent.png
-      - url: /assets/press/promos/dark-noise-dynamic-island-banner.jpg
-      - url: /assets/press/promos/dark-noise-ios16-banner.jpg
-      - url: /assets/press/promos/releases/dark-noise-3_2-interactive-widgets.jpg
-      - url: /assets/press/promos/releases/dark-noise-3_2-interactive-widgets-mac.jpg
   - title: iPhone Screenshots
     images:
       - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_01.png
