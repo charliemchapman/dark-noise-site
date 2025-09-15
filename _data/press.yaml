@@ -1,14 +1,13 @@
 sections:
   - title: App Icon
     images:
-      - url: /assets/press/promos/dark-noise-icon-v2-primary.jpg
-      - url: /assets/press/promos/dark-noise-icon-v2-primary-rounded.png
-      - url: /assets/press/promos/dark-noise-icon-v2-primary-dark.png
-      - url: /assets/press/promos/dark-noise-icon-v2-primary-dark-rounded.png
+      - url: /assets/press/promos/dark-noise-icon-v3-cropped.png
+      - url: /assets/press/promos/dark-noise-icon-v3-dark-cropped.png
   - title: Promo Images
     images:
       - url: /assets/press/promos/dark-noise-hero-v3-transparent.png
       - url: /assets/press/promos/dark-noise-hero-v2-transparent.png
+      - url: /assets/press/promos/releases/dark-noise-3_5/dark-noise-3_5-liquid-glass-magic-mix.jpg
       - url: /assets/press/promos/releases/dark-noise-3_3-control-center.jpg
       - url: /assets/press/promos/releases/dark-noise-3_2-interactive-widgets.jpg
       - url: /assets/press/promos/releases/dark-noise-3_2-interactive-widgets-mac.jpg
