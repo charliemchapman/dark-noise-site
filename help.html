@@ -1,24 +1,64 @@
 ---
-layout: markdown
-title: Help
+layout: main
+title: Help | Dark Noise
 ---
 
-<h1>Help</h1>
+<main class="help-page">
+    <section class="help-hero">
+        <div>
+            <p class="eyebrow">Help Center</p>
+            <h1>Answers for Dark Noise.</h1>
+            <p>Find setup tips, common fixes, subscription help, and the frequently asked questions that come up most often.</p>
+        </div>
+        <div class="help-contact-card">
+            <p class="section-kicker">Need a person?</p>
+            <h2>Email support</h2>
+            <p>For anything not covered here, reach out directly.</p>
+            <a href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a>
+        </div>
+    </section>
 
-{% for tag in site.data.support.tags %}
-<div class="support-group">
-      <h3>{{ tag.name }}</h3>
-      <ul>
-            {% for support in site.support %}
-            {% if support.tags contains tag.id  %}
-                  <li><a href="{{ support.url }}">{{ support.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-      </ul>
-</div>
-{% endfor %}
+    <section class="help-groups" aria-label="Help topics">
+        {% for tag in site.data.support.tags %}
+        <section class="help-group">
+            <div class="help-group-heading">
+                <p class="section-kicker">{{ tag.name }}</p>
+                {% if tag.id == "intro" %}
+                <h2>Get set up quickly.</h2>
+                {% elsif tag.id == "common" %}
+                <h2>Fix common issues.</h2>
+                {% elsif tag.id == "faq" %}
+                <h2>Frequently asked questions.</h2>
+                {% elsif tag.id == "pro" %}
+                <h2>Purchases and Dark Noise Pro.</h2>
+                {% endif %}
+            </div>
+            <div class="help-link-list">
+                {% for support in site.support %}
+                {% if support.tags contains tag.id %}
+                <a class="help-link-card" href="{{ support.url }}">
+                    <span>{{ support.title }}</span>
+                    <span aria-hidden="true">→</span>
+                </a>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </section>
+        {% endfor %}
+    </section>
 
-<br/>
-<h2>More Help</h2>
-<p>For feature requests or new sound requests please use the <a href="https://tally.so/r/wdEq4A">Request a Feature Form</a> or <a href="https://tally.so/r/wAzPGk">Request a New Sound Form</a>.</p>
-<p>For any additional questions don't hesitate to email me at <a href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a>.</p>
+    <section class="help-request-grid" aria-label="Requests and contact">
+        <article>
+            <p class="section-kicker">Feature requests</p>
+            <h2>Have an idea?</h2>
+            <p>Send feature requests through the request form so they land in the right place.</p>
+            <a href="https://tally.so/r/wdEq4A">Request a feature</a>
+        </article>
+        <article>
+            <p class="section-kicker">Sound requests</p>
+            <h2>Want a new sound?</h2>
+            <p>Use the sound request form for ambient sound ideas and additions.</p>
+            <a href="https://tally.so/r/wAzPGk">Request a sound</a>
+        </article>
+    </section>
+</main>

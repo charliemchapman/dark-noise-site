@@ -1,10 +1,19 @@
 ---
-layout: markdown
+layout: main
 ---
-<h1>{{ page.title }}</h1>
+<main class="support-page">
+  <a class="support-back-link" href="/help">Help Center</a>
+  <article class="support-article">
+    <p class="section-kicker">Support</p>
+    <h1>{{ page.title }}</h1>
 
-{{ content }}
+    <div class="support-article-content">
+      {{ content }}
+    </div>
 
-</br>
-
-<p>If you have additional questions you can reach out at <a href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a>.</p>
+    <footer class="support-article-footer">
+      <p>Still have questions?</p>
+      <a href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a>
+    </footer>
+  </article>
+</main>
