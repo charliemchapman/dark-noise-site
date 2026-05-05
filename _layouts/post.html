@@ -1,11 +1,17 @@
 ---
 layout: main
 ---
-<div class="markdown-content post-content">
-  <h1>{{ page.title }}</h1>
-  <p class="post-meta">{{ page.date | date_to_string }}</p>
-  
-  {{ content }}
-</div> 
+<main class="release-post-page">
+  <a class="release-back-link" href="/releases">Release Archive</a>
+  <article class="release-post">
+    <header class="release-post-header">
+      <p class="section-kicker">Release</p>
+      <h1>{{ page.title }}</h1>
+      <p class="release-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+    </header>
 
-<div style="height: 0;">
+    <div class="release-post-content">
+      {{ content }}
+    </div>
+  </article>
+</main>
