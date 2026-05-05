@@ -46,93 +46,145 @@
 
   </head>
   <body>
-    <nav>
-  <div class="main-nav">
-    <a class="logo" href="/">
-      <img src="/assets/images/app-icon-dark-noise_1024.jpg"/>
-      <h1>Dark Noise</h1>
-    </a>
-    <div class="links">
-      <div class="empty"></div>
-      
-        <a href="/help" >Help</a>
-      
-        <a href="/press" >Press</a>
-      
-        <a href="https://apps.apple.com/us/app/dark-noise/id1465439395" >Download</a>
-      
-    </div>
-    <div class="expand-links-container">
-      <button class="expand-links" onclick="expandLinks()">
-        <img src="/assets/images/hamburger.png" height="12"/>
-      </button>
-    </div>
-  </div>
-  <div id="sub-nav" class="sub-nav closed">
+    <nav class="main-nav" aria-label="Main navigation">
+  <a class="logo" href="/">
+    <img src="/assets/press/promos/dark-noise-icon-v3-cropped.png" alt="">
+    <span>Dark Noise</span>
+  </a>
+  <div class="links">
     
-      <div class="section">
-        <h6>Get</h6>
-        
-          <a href="https://apps.apple.com/us/app/dark-noise/id1465439395">Download App</a>
-        
-      </div>
     
-      <div class="section">
-        <h6>About</h6>
-        
-          <a href="/releases">Releases</a>
-        
-          <a href="/privacy-policy">Privacy Policy</a>
-        
-          <a href="/press">Press</a>
-        
-      </div>
+      
+      <a href="https://apps.apple.com/us/app/dark-noise/id1465439395" >Download</a>
     
-      <div class="section">
-        <h6>Contact</h6>
-        
-          <a href="/help">Help</a>
-        
-          <a href="mailto:charlie@darknoise.app">Email</a>
-        
-          <a href="https://twitter.com/darknoiseapp">Twitter</a>
-        
-          <a href="https://indieapps.space/@darknoise">Mastodon</a>
-        
-      </div>
+      
+      <a href="/press" >Press</a>
+    
+      
+      <a href="/help" >Help</a>
     
   </div>
-  <script>
-    function expandLinks() {
-      var subNav = document.getElementById("sub-nav");
-      if (subNav.classList.contains('opened')) {
-        subNav.classList.remove("opened")
-        subNav.classList.add("closed")
-      } else {
-        subNav.classList.add("opened")
-        subNav.classList.remove("closed")
-      }
-    }
-  </script>
 </nav>
+
       <div class="content">
-        <div class="main-content">
+        <main class="homepage">
+    <section class="hero">
+        <div class="hero-copy">
+            <p class="eyebrow">On iPhone, iPad, and Mac</p>
+            <h1>Dark Noise</h1>
+            <p class="tagline">Simple. Fast. White noise, refined.</p>
 
-    <img class="main-hero" src="assets/images/dark-noise-hero-v3-transparent.png"/>
+            <div class="cta-row">
+                <a class="app-store-button" href="https://apps.apple.com/us/app/dark-noise/id1465439395" aria-label="Download Dark Noise on the App Store">
+                    <img src="/assets/images/app-store-button-white.svg" alt="Download on the App Store"/>
+                </a>
+                <span class="mini-proof">Independent since 2019</span>
+            </div>
+        </div>
 
-    <h2>Simple. Fast. White noise, refined.</h2>
-    <div class="app-store-button">
-        <a href="https://apps.apple.com/us/app/dark-noise/id1465439395">
-            <img src="/assets/images/app-store-button-white.svg" alt="Download on the App Store"/>
-        </a>
-    </div>
+        <div class="device-stage" aria-hidden="true">
+            <img src="/assets/images/dark-noise-hero-v3-transparent.png" alt="">
+        </div>
 
-    <div class="presskit-video">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/D4dbuYqoHmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
+        <div class="award-row" aria-label="Recognition">
+            <div class="award">
+                <p class="award-title">App Store App of the Day</p>
+            </div>
+            <div class="award">
+                <p class="award-title">4.8 stars from 3.5K ratings</p>
+            </div>
+            <div class="award">
+                <p class="award-title">Built with care since 2019</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="homepage-section">
+        <section class="proof-section" aria-labelledby="proof-heading">
+            <div class="proof-intro">
+                <p class="section-kicker">What people are saying</p>
+                <h2 id="proof-heading">Quiet praise for a calmer app.</h2>
+                <p>From press, podcasts, and App Store reviews.</p>
+            </div>
+
+            <div class="press-quotes">
+                <a class="press-quote featured" href="https://www.macstories.net/reviews/dark-noise-review-ambient-noise-never-looked-so-good/">
+                    <p class="quote-source">MacStories</p>
+                    <blockquote>Dark Noise's design is what really pushes it over the edge as the clear best ambient noise app.</blockquote>
+                    <cite>Ryan Christoffel</cite>
+                </a>
+                <a class="press-quote" href="https://www.relay.fm/cortex/94">
+                    <p class="quote-source">Cortex</p>
+                    <blockquote>I think it's easy to say it's probably the best white noise app on the store right now</blockquote>
+                    <cite>CGP Grey</cite>
+                </a>
+                <a class="press-quote" href="https://www.relay.fm/mpu/565">
+                    <p class="quote-source">Mac Power Users</p>
+                    <blockquote>One of my favorite new apps of the last year or so. And it's the best white noise app I've ever used.</blockquote>
+                    <cite>Stephen Hackett</cite>
+                </a>
+            </div>
+
+            <div class="app-store-reviews" aria-labelledby="reviews-heading">
+                <div class="reviews-heading">
+                    <div>
+                        <p class="section-kicker">App Store reviews</p>
+                        <h3 id="reviews-heading">From people who press play every night.</h3>
+                    </div>
+                    <p class="reviews-rating"><span>4.8</span> out of 5</p>
+                </div>
+
+                <div class="review-strip">
+                <article class="review-item">
+                    <p class="review-title">Just exactly perfect</p>
+                    <p class="stars" aria-label="5-star App Store review">★★★★★</p>
+                    <blockquote>Simple for sleepy people. Easy to personalize. Good night.</blockquote>
+                    <cite>BradPDX</cite>
+                </article>
+                <article class="review-item">
+                    <p class="review-title">Travelers Dream</p>
+                    <p class="stars" aria-label="5-star App Store review">★★★★★</p>
+                    <blockquote>A must for noisy hotel rooms.</blockquote>
+                    <cite>gordonross</cite>
+                </article>
+                <article class="review-item">
+                    <p class="review-title">Great interface</p>
+                    <p class="stars" aria-label="5-star App Store review">★★★★★</p>
+                    <blockquote>Dark Noise does a great job of staying out of your way.</blockquote>
+                    <cite>Srisotlgxlg</cite>
+                </article>
+                <article class="review-item">
+                    <p class="review-title">Best sound program I've found.</p>
+                    <p class="stars" aria-label="5-star App Store review">★★★★★</p>
+                    <blockquote>Easy to use. Nice widget to quickly access sounds. Large selection of sounds.</blockquote>
+                    <cite>Billwashere</cite>
+                </article>
+                <article class="review-item">
+                    <p class="review-title">Amazing!</p>
+                    <p class="stars" aria-label="5-star App Store review">★★★★★</p>
+                    <blockquote>I love the widgets so much, and the fact that you can listen without having the app open.</blockquote>
+                    <cite>Taylorlovesit</cite>
+                </article>
+                <article class="review-item">
+                    <p class="review-title">Amazing quality sound</p>
+                    <p class="stars" aria-label="5-star App Store review">★★★★★</p>
+                    <blockquote>The sound quality is excellent.</blockquote>
+                    <cite>im_so_mi</cite>
+                </article>
+                </div>
+            </div>
+        </section>
+
+        <div class="video-card">
+            <div class="video-frame">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/D4dbuYqoHmA" title="Dark Noise preview video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+</main>
+
       </div>
-    <div class="footer">
+    <footer class="footer">
     <div class="footer-links">
         
           <div class="section">
@@ -168,6 +220,7 @@
         
       </div>
     <p class="signature">Made by Charlie Chapman in St. Louis, MO</p>
-</div>
+</footer>
+
   </body>
 </html>
