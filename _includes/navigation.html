@@ -1,41 +1,13 @@
-<nav>
-  <div class="main-nav">
-    <a class="logo" href="/">
-      <img src="/assets/images/app-icon-dark-noise_1024.jpg"/>
-      <h1>Dark Noise</h1>
-    </a>
-    <div class="links">
-      <div class="empty"></div>
-      {% for item in site.data.navigation.headerLinks reversed %}
-        <a href="{{ item.link }}" {% if page.url == item.link or (page.url == '/index.html' and item.link == '/') %}class="current"{% endif %}>{{ item.name }}</a>
-      {% endfor %}
-    </div>
-    <div class="expand-links-container">
-      <button class="expand-links" onclick="expandLinks()">
-        <img src="/assets/images/hamburger.png" height="12"/>
-      </button>
-    </div>
-  </div>
-  <div id="sub-nav" class="sub-nav closed">
-    {% for section in site.data.navigation.sections %}
-      <div class="section">
-        <h6>{{ section.name }}</h6>
-        {% for link in section.links %}
-          <a href="{{ link.link }}">{{ link.name }}</a>
-        {% endfor %}
-      </div>
+<nav class="main-nav" aria-label="Main navigation">
+  <a class="logo" href="/">
+    <img src="/assets/press/promos/dark-noise-icon-v3-cropped.png" alt="">
+    <span>Dark Noise</span>
+  </a>
+  <div class="links">
+    {% assign current_url = page.url | replace: 'index.html', '' | replace: '.html', '' %}
+    {% for item in site.data.navigation.headerLinks %}
+      {% assign item_link_slash = item.link | append: '/' %}
+      <a href="{{ item.link }}" {% if current_url == item.link or page.url == item_link_slash or (page.url == '/index.html' and item.link == '/') %}class="current"{% endif %}>{{ item.name }}</a>
     {% endfor %}
   </div>
-  <script>
-    function expandLinks() {
-      var subNav = document.getElementById("sub-nav");
-      if (subNav.classList.contains('opened')) {
-        subNav.classList.remove("opened")
-        subNav.classList.add("closed")
-      } else {
-        subNav.classList.add("opened")
-        subNav.classList.remove("closed")
-      }
-    }
-  </script>
 </nav>
