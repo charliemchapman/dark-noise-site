@@ -522,13 +522,18 @@ body {
     .review-strip {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 0 30px;
+        gap: 14px;
     }
 
     .review-item {
         min-height: 190px;
-        padding: 18px 0 24px;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 14px;
+        background:
+            linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.045)),
+            rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
 
         blockquote {
             margin: 12px 0 0;
@@ -561,34 +566,6 @@ body {
         font-size: 13px;
         line-height: 1;
         letter-spacing: 0;
-    }
-
-    .review-item:nth-child(n + 4) {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.14);
-    }
-
-    .review-item:nth-child(-n + 3) {
-        border-top: none;
-    }
-
-    .review-item:nth-child(3n + 2),
-    .review-item:nth-child(3n + 3) {
-        padding-left: 30px;
-        border-left: 1px solid rgba(255, 255, 255, 0.09);
-    }
-
-    .review-item:nth-child(n + 4) {
-        padding-top: 24px;
-    }
-
-    .review-item:nth-child(-n + 3) {
-        padding-bottom: 30px;
-    }
-
-    .review-item:nth-child(4),
-    .review-item:nth-child(5),
-    .review-item:nth-child(6) {
-        margin-top: 6px;
     }
 
     .review-item:nth-child(3) blockquote,
@@ -744,31 +721,13 @@ body {
 
         .review-strip {
             grid-template-columns: 1fr;
-            gap: 0;
+            gap: 12px;
         }
 
-        .review-item,
-        .review-item:nth-child(3n + 2),
-        .review-item:nth-child(3n + 3),
-        .review-item:nth-child(n + 4),
-        .review-item:nth-child(-n + 3),
-        .review-item:nth-child(4),
-        .review-item:nth-child(5),
-        .review-item:nth-child(6) {
+        .review-item {
             min-height: 0;
             margin-top: 0;
-            padding: 20px 0;
-            border-left: none;
-            border-bottom: none;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .review-item:first-child {
-            border-top: none;
-        }
-
-        .review-item:last-child {
-            border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+            padding: 18px;
         }
     }
 }
