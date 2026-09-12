@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://darknoise.app/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darknoise.app/" rel="alternate" type="text/html" /><updated>2026-09-12T15:02:28-05:00</updated><id>https://darknoise.app/feed.xml</id><title type="html">Dark Noise</title><subtitle>The official site of the Dark Noise app for iPhone, iPad, and Mac.</subtitle><entry><title type="html">Dark Noise 3.6 - Extra Large Widgets &amp;amp; New Siri Support</title><link href="https://darknoise.app/posts/dark-noise-3_6" rel="alternate" type="text/html" title="Dark Noise 3.6 - Extra Large Widgets &amp;amp; New Siri Support" /><published>2026-09-12T00:00:00-05:00</published><updated>2026-09-12T00:00:00-05:00</updated><id>https://darknoise.app/posts/dark-noise-3_6</id><content type="html" xml:base="https://darknoise.app/posts/dark-noise-3_6"><![CDATA[<p><img src="/assets/press/promos/releases/dark-noise-3_6/dark-noise-3_6-hero.jpg" alt="Dark Noise 3.6 for iOS 27 with new Siri support and extra large widgets" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://darknoise.app/feed.xml" rel="self" type="application/atom+xml" /><link href="https://darknoise.app/" rel="alternate" type="text/html" /><updated>2026-09-12T15:45:00-05:00</updated><id>https://darknoise.app/feed.xml</id><title type="html">Dark Noise</title><subtitle>The official site of the Dark Noise app for iPhone, iPad, and Mac.</subtitle><entry><title type="html">Dark Noise 3.6 - Extra Large Widgets &amp;amp; New Siri Support</title><link href="https://darknoise.app/posts/dark-noise-3_6" rel="alternate" type="text/html" title="Dark Noise 3.6 - Extra Large Widgets &amp;amp; New Siri Support" /><published>2026-09-12T00:00:00-05:00</published><updated>2026-09-12T00:00:00-05:00</updated><id>https://darknoise.app/posts/dark-noise-3_6</id><content type="html" xml:base="https://darknoise.app/posts/dark-noise-3_6"><![CDATA[<p><img src="/assets/press/promos/releases/dark-noise-3_6/dark-noise-3_6-hero.jpg" alt="Dark Noise 3.6 for iOS 27 with new Siri support and extra large widgets" /></p>
 
-<p>Dark Noise 3.6 brings support for iOS 27 with a new fluid, liquid glass Now Playing view, new extra large widgets on iPhone, and support for the new conversational Siri with on-screen awareness. And on the Mac, Magic Mix is making its way over from iOS!</p>
+<p>Dark Noise 3.6 brings support for iOS 27 with a new fluid, liquid glass Now Playing view, new extra large widgets on iPhone, and support for the new Siri AI with on-screen awareness. And on the Mac, Magic Mix is making its way over from iOS!</p>
 
 <p>From the beginning, Dark Noise has been designed to make it easy to start an ambient soundscape and get back to your life. This update continues that goal, whether you’re opening the app, tapping a widget, or asking Siri to play a favorite sound.</p>
 
@@ -16,11 +16,18 @@
 
 <p><img src="/assets/press/promos/releases/dark-noise-3_6/dark-noise-extra-large-widgets.jpeg" alt="Dark Noise extra large widgets on iPhone, with icon and labeled sound layouts" /></p>
 
-<h2 id="conversational-siri">Conversational Siri</h2>
+<h2 id="siri-ai">Siri AI</h2>
 
-<p>With the new conversational Siri in iOS 27, you can ask for sounds more naturally. Try “Play a Water sound in Dark Noise” or “Play one of my favorites in Dark Noise” without needing to create a shortcut first.</p>
+<p>With the new Siri AI in iOS 27, you can ask for sounds more naturally. Try “Play a Water sound in Dark Noise” or “Play one of my favorites in Dark Noise” without needing to create a shortcut first.</p>
 
 <p>On-screen awareness also lets you refer to what you’re looking at. You can say “Play this” to start the selected sound, or “Favorite this” to add it to your favorites without repeating its name.</p>
+
+<div class="presskit-video presskit-video--portrait">
+    <iframe src="https://www.youtube.com/embed/sFnz85DhQSY" title="Dark Noise Siri AI demo" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+<p class="caption">
+    Quick demo of Dark Noise with Siri AI. <a href="https://youtube.com/shorts/sFnz85DhQSY">Watch on YouTube</a>.
+</p>
 
 <h2 id="magic-mix-comes-to-mac">Magic Mix Comes to Mac</h2>
 

@@ -403,6 +403,8 @@ body .content .content-centered { padding-top: 60px; margin-left: auto; margin-r
 
 .release-post-content .presskit-video { position: relative; aspect-ratio: 16 / 9; margin-top: 30px; overflow: hidden; border-radius: 16px; background: rgba(0, 0, 0, 0.35); border: 1px solid rgba(255, 255, 255, 0.12); }
 
+.release-post-content .presskit-video--portrait { aspect-ratio: 9 / 16; width: 100%; max-width: 360px; margin-left: auto; margin-right: auto; }
+
 .release-post-content .presskit-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; }
 
 @media (max-width: 760px) { .release-page, .release-post-page { width: calc(100% - 28px); padding: 20px 0 var(--dn-section-gap-mobile); } .release-hero { padding: 38px 0 52px; } .release-hero h1 { font-size: clamp(42px, 13vw, 58px); } .release-hero p:not(.eyebrow) { font-size: 18px; } .release-list { margin-top: 44px; } .release-card { grid-template-columns: 1fr; gap: 18px; padding: 14px; border-radius: 14px; } .release-card-image { min-height: 210px; } .release-card-content { padding: 0 4px 6px; } .release-card-content h2 { font-size: 25px; } .release-post { padding: 26px; border-radius: 16px; } .release-post-hero-image { margin-top: 26px; border-radius: 12px; } .release-post-content { margin-top: 28px; } .release-post-content h2 { font-size: 26px; } .release-post-content h3 { font-size: 22px; } .release-post-content p, .release-post-content li { font-size: 16px; } .release-post-content img, .release-post-content .presskit-video { border-radius: 12px; } }
