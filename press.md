@@ -34,7 +34,7 @@ layout: main
             <div class="press-image-grid">
                 {% for image in section.images %}
                 <a class="press-image-card" href="{{ image.url }}">
-                    <img src="{{ image.url }}" alt="{{ section.title }} asset">
+                    <img src="{{ image.url }}" alt="{% if image.alt %}{{ image.alt | escape }}{% else %}{{ section.title }} asset{% endif %}">
                 </a>
                 {% endfor %}
             </div>

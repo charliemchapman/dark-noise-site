@@ -5,6 +5,9 @@ sections:
       - url: /assets/press/promos/dark-noise-icon-v3-dark-cropped.png
   - title: Promo Images
     images:
+      - url: /assets/press/promos/releases/dark-noise-3_6/dark-noise-3_6-hero.jpg
+        alt: Dark Noise 3.6 for iOS 27 with new Siri support and extra large widgets
+        alt: Dark Noise's expanded Now Playing view and sound library
       - url: /assets/press/promos/dark-noise-hero-v3-transparent.png
       - url: /assets/press/promos/dark-noise-hero-v2-transparent.png
       - url: /assets/press/promos/releases/dark-noise-3_5/dark-noise-3_5-liquid-glass-magic-mix.jpg
@@ -18,14 +21,19 @@ sections:
       - url: /assets/press/promos/dark-noise-banner-02-wAppStore.png
   - title: iPhone Screenshots
     images:
-      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_01.png
-      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_02.png
-      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_03.png
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_01.jpg
+        alt: Dark Noise Now Playing — Simple. Fast. White noise, refined.
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_02.jpg
+        alt: Dark Noise sound library with over 40 sounds
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_03.jpg
+        alt: Create custom mixes in Dark Noise
       - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_04.png
       - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_05.png
       - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_06.png
       - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_07.png
       - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_08.png
+      - url: /assets/press/screenshots/iphone/dn_screenshot_iphone_09.jpg
+        alt: Save your favorite sounds in Dark Noise
   - title: iPad Screenshots
     images:
       - url: /assets/press/screenshots/ipad/screenshot_ipad_01.png
